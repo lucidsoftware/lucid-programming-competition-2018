@@ -1,0 +1,1 @@
+# lucid-programming-competition-2018
