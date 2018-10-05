@@ -2,11 +2,15 @@ const getMaxProfit = input => {
     const stocks = input.split(' ').map(price => parseInt(price));
 
     let maxProfit = stocks[1] - stocks[0];
-    let currentMin = stocks[0];
+    let currentMin = Number.MAX_VALUE;
 
-    for (let i = 1; i < stocks.length; i++) {
-        maxProfit = Math.max(maxProfit, stocks[i] - currentMin);
-        currentMin = Math.min(currentMin, stocks[i]);
+    for (let i = 0; i < stocks.length; i++) {
+        if (stocks[i] < currentMin) {
+            currentMin = stocks[i];
+            for (let j = i + 1; j < stocks.length; j++) {
+                maxProfit = Math.max(maxProfit, stocks[j] - currentMin);
+            }
+        }
     }
 
     return maxProfit;
