@@ -8,9 +8,6 @@ def get_max_profit(stocks):
 
     return max_profit
 
-tests = int(input())
+stocks = [int(x) for x in input().split()]
 
-for _ in range(tests):
-    stocks = [int(x) for x in input().split()]
-
-    print(get_max_profit(stocks))
+print(get_max_profit(stocks))
