@@ -10,21 +10,21 @@ An example of a single tile is pictured below:
 
 The object of the puzzle is to fit all the tiles together in a rectangular formation such that all the adjacent edges have matching numbers.  Here is an example of a solved 2x2 puzzle:
 
-    \ 5 /\ 1 /
-    3 X 44 X 0
-    / 9 \/ 0 \
-    \ 9 /\ 0 /
-    1 X 00 X 3
-    / 5 \/ 8 \
+    \ 5 / \ 1 /
+    3 X 4 4 X 0
+    / 9 \ / 0 \
+    \ 9 / \ 0 /
+    1 X 0 0 X 3
+    / 5 \ / 8 \
 
 Here is an example of a solved 3x2 puzzle:
 
-    \ 5 /\ 1 /\ 2 /
-    3 X 44 X 00 X 1
-    / 9 \/ 0 \/ 6 \
-    \ 9 /\ 0 /\ 6 /
-    1 X 00 X 33 X 7
-    / 5 \/ 8 \/ 1 \
+    \ 5 / \ 1 / \ 2 /
+    3 X 4 4 X 0 0 X 1
+    / 9 \ / 0 \ / 6 \
+    \ 9 / \ 0 / \ 6 /
+    1 X 0 0 X 3 3 X 7
+    / 5 \ / 8 \ / 1 \
 
 A valid solution must use all specified tiles exactly once.  The edges of each tile in a solution must match with those of any adjacent tiles.
 
@@ -39,7 +39,7 @@ The next _w * h_ lines of input specifies each of tiles to be used in solving th
 There is exactly one solution to each puzzle.  You should not rotate any tiles from their original specified orientation in order to solve the puzzle.
 
 ## Output Format
-You must output your solution to each puzzle in a grid format shown below.  Every tile in the output should be exactly 5 characters wide by 3 characters high (don't forget the spaces!).
+You must output your solution to each puzzle in a grid format shown below.  Every tile in the output should be exactly 5 characters wide by 3 characters high (don't forget the spaces!), with a single horizontal space between tiles.
 
 ### Example Input 1
 
@@ -51,12 +51,12 @@ You must output your solution to each puzzle in a grid format shown below.  Ever
 
 ### Example Output 1
 
-    \ 2 /\ 5 /
-    2 X 11 X 6
-    / 3 \/ 7 \
-    \ 3 /\ 7 /
-    0 X 66 X 5
-    / 7 \/ 4 \
+    \ 2 / \ 5 /
+    2 X 1 1 X 6
+    / 3 \ / 7 \
+    \ 3 / \ 7 /
+    0 X 6 6 X 5
+    / 7 \ / 4 \
 
 ### Example Input 2
 
@@ -67,6 +67,6 @@ You must output your solution to each puzzle in a grid format shown below.  Ever
 
 ### Example Output 2
 
-    \ 5 /\ 7 /\ 1 /
-    4 X 66 X 11 X 0
-    / 1 \/ 0 \/ 2 \
+    \ 5 / \ 7 / \ 1 /
+    4 X 6 6 X 1 1 X 0
+    / 1 \ / 0 \ / 2 \

@@ -68,17 +68,18 @@ class Gameboard(object):
     def __str__(self):
         gameboard_string = []
         for row in range(self.height):
-            row_str = []
+            tile_row_str = []
             for i in range(3):
+                row_str = []
                 for col in range(self.width):
                     tile = self.tilemap.get((row, col))
                     if tile is None:
                         row_str.append("   ")
                     else:
                         row_str.append(tile.str_row(i))
-                row_str.append("\n")
-            gameboard_string.extend(row_str)
-        return "".join(gameboard_string)
+                tile_row_str.append(" ".join(row_str))
+            gameboard_string.append("\n".join(tile_row_str))
+        return "\n".join(gameboard_string)
 
 
 class Solver(object):
