@@ -36,9 +36,10 @@ The next _w * h_ lines of input specifies each of tiles to be used in solving th
     4 X 2
     / 3 \
 
+There is exactly one solution to each puzzle.  You should not rotate any tiles from their original specified orientation in order to solve the puzzle.
 
 ## Output Format
-Each puzzle has exactly one valid solution, which you must output in a grid format shown below.  Every tile in the output should be exactly 5 characters wide by 3 characters high (don't forget the spaces!)
+You must output your solution to each puzzle in a grid format shown below.  Every tile in the output should be exactly 5 characters wide by 3 characters high (don't forget the spaces!).
 
 ### Example Input 1
 
