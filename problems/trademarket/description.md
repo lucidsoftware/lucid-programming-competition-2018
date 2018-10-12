@@ -4,11 +4,11 @@ Recently, you and a group of friends have grown tired of the typical trading pre
 
 To help with your strategizing, you decide to write a program to determine the maximum profit you can make if you are given a list of the prices (in units of gold) for a given resource in the upcoming game. To keep your strategy simple, you decide to limit yourself to one "buy" operation and one "sell" operation.
 
-### Notes:
-
-1. You must "buy" once and "sell" once (and only once).
-1. You cannot buy and sell in the same turn.
-1. Shorting is not an option. You must buy before you sell.
+> #### Notes:
+>
+> 1. You must "buy" once and "sell" once (and only once).
+> 1. You cannot buy and sell in the same turn.
+> 1. Shorting is not an option. You must buy before you sell.
 
 ## Input
 
