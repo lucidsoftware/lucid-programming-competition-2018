@@ -3,6 +3,7 @@
 *.html
 *.pdf
 *.zip
+*.swp
 
 .npm
 .npm-install
