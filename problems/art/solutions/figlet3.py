@@ -1,0 +1,2 @@
+import sys
+(lambda s, n, h, font : print(([font.update({input():[sys.stdin.readline()[:-1] for _ in range(h)]}) for _ in range(n)] and '\n').join(''.join([font[c][r] for c in s]) for r in range(h))))(input(), int(input()), int(input()), {})
