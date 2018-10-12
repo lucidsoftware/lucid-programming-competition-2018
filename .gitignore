@@ -3,6 +3,7 @@
 *.html
 *.pdf
 *.zip
+*.swp
 
 .npm
 .npm-install
@@ -11,3 +12,4 @@
 tests.zip
 node_modules/
 scoreboard/*.js
+.DS_Store
