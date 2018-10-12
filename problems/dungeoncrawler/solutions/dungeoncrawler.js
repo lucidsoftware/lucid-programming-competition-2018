@@ -25,7 +25,7 @@ function solveProblem(data) {
         throw new Error('Bad Input');
       }
       return {
-        name, reward, treasures
+        name, reward, treasures, height: 0
       }
     });
 
@@ -62,24 +62,47 @@ function solveProblem(data) {
     }
 
 
-
     /*********** Solution ****************/
+    let plan = [];  // The list of dungeons we're going to visit
+    const treasureSack = new Set();  // The treasures we've gotten
+
+    function clearHeights() {
+      dungeons.forEach(d => d.height = 0)
+    }
+
+    /**
+     *
+     * @param {((typeof dungeons[0])[]} stack
+     * @param {typeof dungeons[0]} d
+     */
+    function getHeight(stack, d) {
+      if (stack.indexOf(d) >= 0) {
+        throw new Error(
+            `Cycle ${stack.map(d => d.reward).join('->')}->${d.reward}`);
+      }
+      stack.push(d);
+      if (d.height == 0) {
+        d.height = 1 +
+            Math.max(
+                0,
+                ...(d.treasures.filter(t => !treasureSack.has(t))
+                        .map(getDungeonOrThrow)
+                        .map(getHeight.bind(this, stack))));
+      }
+      stack.pop(d);
+      return d.height;
+    }
+
 
     /**
      * @param {string} treasure
-     * @param {(typeof dungeons[0]} visited
-     * @param {string[]} buildStack
+     * @param {(typeof dungeons[0])[]} visited
      */
-    function getDeps(treasure, visited, buildStack) {
+    function getDeps(treasure, visited) {
       const d = getDungeonOrThrow(treasure);
       if (visited.indexOf(d) >= 0) {
         return visited;
       }
-
-      if (buildStack.indexOf(treasure) >= 0) {
-        throw new Error(`Cycle ${buildStack.join('->')}->${treasure}`);
-      }
-      buildStack.push(treasure);
 
       d.treasures
           // Remove already obtained treasures from the list
@@ -89,17 +112,13 @@ function solveProblem(data) {
           // Sort according to the rules
           .sort((d1, d2) => d1.name.localeCompare(d2.name))
           // Recursivly get their deps
-          .forEach(d => getDeps(d.reward, visited, buildStack));
+          .forEach(d => getDeps(d.reward, visited));
 
       visited.push(d);
-
-      buildStack.pop();
       return visited;
     }
 
 
-    let plan = [];  // The list of dungeons we're going to visit
-    const treasureSack = new Set();  // The treasures we've gotten
 
     /**
      *
@@ -115,15 +134,23 @@ function solveProblem(data) {
     // getting the first treasure may affect the number of
     // dependencies required for the rest of the treasures
     while (targets.size > 0) {
-      [...targets]
+      clearHeights();
+
+      getDeps(
+        [...targets]
           // V8's sort is stable afaik so we sort alphabetically first
           .sort()
-          .map(t => getDeps(t, [], []))
+          .map(getDungeonOrThrow)
+          .map(d => {
+            getHeight([], d)
+            return d
+          })
           // Go for the treasure with least dependencies first
-          .sort((l1, l2) => l1.length - l2.length)
+          .sort((d1, d2) => d1.height - d2.height)
           // Get the first one
-          .shift()
-          .forEach(visitDungeon);
+          .shift().reward, []
+        )
+        .forEach(visitDungeon);
     }
 
     return plan.join(' ');
