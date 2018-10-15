@@ -2,7 +2,7 @@
 
 Bowser is tired of stealing Princess Peach only to have Mario rush in and foil his plan. This time Bowser has a better idea, he challenges Mario to a card game. Each game has n cards in the deck.
 
-Mario knows that Bowser is always up to no good so he suspects Bowser of cheating. Mario knows that Bowser will sometimes remove a single card from the deck each game. Mario must look through the remaining cards and tell Bowser which card he took, if any.
+Mario knows that Bowser is always up to no good so he suspects Bowser of cheating. Mario knows that Bowser will always remove a single card from the deck each game. Mario must look through the remaining cards and tell Bowser which card he took.
 
 # Input #
 
@@ -26,7 +26,7 @@ Print the value of the card missing from the deck for each round. If no card is 
 ## Example Input 2 ##
 
     5 5
-    3 5 4 1 2
+    3 5 4 1
     2 4 1 5
     5 3 1 4
     4 2 3 1
@@ -34,7 +34,7 @@ Print the value of the card missing from the deck for each round. If no card is 
 
 ## Example Output 2 ##
 
-    0
+    2
     3
     2
     5
