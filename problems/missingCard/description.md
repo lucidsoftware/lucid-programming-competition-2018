@@ -1,5 +1,7 @@
 # To Catch a Cheat #
 
+![alt text](http://url/to/img.png)
+
 Bowser is tired of stealing Princess Peach only to have Mario rush in and foil his plan. This time Bowser has a better idea, he challenges Mario to a card game. Each game has n cards in the deck.
 
 Mario knows that Bowser is always up to no good so he suspects Bowser of cheating. Mario knows that Bowser will always remove a single card from the deck each game. Mario must look through the remaining cards and tell Bowser which card he took.
