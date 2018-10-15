@@ -1,6 +1,6 @@
 # To Catch a Cheat #
 
-![Alt text](/PMCS_Mario_Cards.png?raw=true "Title")
+![pmcs_mario_cards](https://user-images.githubusercontent.com/17462137/46981119-263bf180-d094-11e8-8d9b-177a882f6f6b.png)
 
 Bowser is tired of stealing Princess Peach only to have Mario rush in and foil his plan. This time Bowser has a better idea, he challenges Mario to a card game. Each game has n cards in the deck.
 
