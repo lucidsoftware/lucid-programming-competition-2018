@@ -10,7 +10,7 @@ The first line is an integer 1 <= N <= 25, the number of cards in the deck, and 
 
 # Output #
 
-Print the value of the card missing from the deck for each round. If no card is missing, print 0.
+Print the value of the card missing from the deck for each round.
 
 ## Example  Input 1 ##
 
