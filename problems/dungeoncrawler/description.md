@@ -66,7 +66,7 @@ B Apple 1 Orange
         <th>Explanation 2</th>
     </tr>
     <tr>
-        <td><pre>It is faster to get the Ruby than the Diamond, so get that first. When obtaining the Diamond, remember that we already have the BrownKey. We need to get the BlueKey and RedKey in any order, so we go visit the BoilingPits first. (because BoilingPits is alphabetically less than DarkerTombs)</pre></td>
+        <td><pre>It is faster to get the Ruby than the Diamond, so get that first. <br>When obtaining the Diamond, remember that we already have the BrownKey. <br>We need to get the BlueKey and RedKey in any order, so we go visit the BoilingPits first. <br>(because BoilingPits is alphabetically less than DarkerTombs)</pre></td>
         <td><pre>It is not possible to obtain the Apple, because dungeons A and B form a cycle in their dependencies.</pre></td>
     </tr>
 </table>
