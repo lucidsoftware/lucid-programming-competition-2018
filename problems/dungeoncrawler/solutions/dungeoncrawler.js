@@ -1,3 +1,5 @@
+// @ts-check
+
 const chunks = [];
 process.stdin.on('data', d => chunks.push(d));
 
@@ -17,23 +19,25 @@ function solveProblem(data) {
 
     // Note: I'm validating input with regex, you should just split on spaces.
     const dungeons = dungeonsRaw.map(r => {
-      const [, name, reward, count, treasuresRaw] =
-          r.match(/^(.+) (.+) (\d+)\s?(.*)$/)
+      const [, name, reward, count, dependenciesRaw] =
+          r.match(/^([a-z]+) ([a-z]+) (\d+)\s?([a-z ]*)$/)
               .concat(/* Make the regex result a real array */);
-      const treasures = treasuresRaw.length ? treasuresRaw.split(' ') : [];
+      const dependencies =
+          dependenciesRaw.length ? dependenciesRaw.split(' ') : [];
 
       // Validate input
-      if (count != treasures.length) {
-        throw new Error(`Bad Input\n Got ${treasures.length} but expected ${
+      if (+count != dependencies.length) {
+        throw new Error(`Bad Input\n Got ${dependencies.length} but expected ${
             count} treasures for ${name}`);
       }
+
       return {
-        name, reward, treasures, deps: undefined
+        name, reward, dependencies
       }
     });
 
     // Validate input
-    if (numDungeons != dungeons.length) {
+    if (+numDungeons != dungeons.length) {
       throw new Error(`Bad Input\n Got ${dungeons.length} but expected ${
           numDungeons} dungeons`);
     }
@@ -68,41 +72,53 @@ function solveProblem(data) {
 
 
 
+
+
+
+
+
+
+
     /*********** Solution ****************/
+
     /**
-     *
-     * @param {((typeof dungeons[0])[]} stack
-     * @param {typeof dungeons[0]} d
-     * @return {Set<typeof dungeons[0]>}
+     * @param {((typeof dungeons[0])[])} stack
+     * @param {typeof dungeons[0]} dungeon
      */
-    function getDeps(stack, d) {
-      if (d.deps) {
-        return d.deps;
+    function getDeps(stack, dungeon) {
+      if (cachedDeps.has(dungeon)) {
+        return cachedDeps.get(dungeon);
       }
-      if (stack.indexOf(d) >= 0) {
+      if (stack.indexOf(dungeon) >= 0) {
         throw new Error(
-            `Cycle ${stack.map(d => d.reward).join('->')}->${d.reward}`);
+            `Cycle ${stack.map(d => d.reward).join('->')}->${dungeon.reward}`);
       }
-      stack.push(d);
+      stack.push(dungeon);
 
 
-      d.deps = new Set([d]);
-      d.treasures.map(getDungeonOrThrow)
-          .map(getDeps.bind(this, stack))
+      const dependencies = new Set([dungeon]);
+      cachedDeps.set(dungeon, dependencies);
+
+      dungeon.dependencies.map(getDungeonOrThrow)
+          .map(d => getDeps(stack, d))
           .forEach(deps => {
             deps.forEach(dep => {
-              d.deps.add(dep);
+              dependencies.add(dep);
             });
           });
 
 
-      stack.pop(d);
-      return d.deps;
+      stack.pop();
+      return cachedDeps.get(dungeon);
     }
+
+    /** @type {Map<typeof dungeons[0], Set<(typeof dungeons[0])>>} */
+    const cachedDeps = new Map();
 
     // Calculate starting dependencies for each dungeon
     targets.map(getDungeonOrThrow).map(getDeps.bind(this, []));
 
+    /** @type {string[]} */
     const plan = [];  // The list of dungeons we're going to visit
     const treasureSack = new Set();  // The treasures we've collected
 
@@ -113,22 +129,27 @@ function solveProblem(data) {
     function visitDungeon(dungeon) {
       plan.push(dungeon.name);
       treasureSack.add(dungeon.reward);
-      dungeons.filter(d => d.deps).forEach(d => {
-        d.deps.delete(dungeon);
-      });
+      cachedDeps.forEach(e => {
+        e.delete(dungeon);
+      })
     }
 
+    /**
+     * @param {string[]} treasures
+     */
     function getTreasures(treasures) {
       while (treasures.length > 0) {
         const nextDungeon = treasures
                                 .map(getDungeonOrThrow)
                                 // Sort according to the rules
                                 .sort(
-                                    (d1, d2) => (d1.deps.size - d2.deps.size) ||
+                                    (d1, d2) => (cachedDeps.get(d1).size -
+                                                 cachedDeps.get(d2).size) ||
                                         d1.name.localeCompare(d2.name))
                                 // Get the first one
                                 .shift();
-        getTreasures(nextDungeon.treasures.filter(t => !treasureSack.has(t)));
+        getTreasures(
+            nextDungeon.dependencies.filter(t => !treasureSack.has(t)));
         visitDungeon(nextDungeon);
 
         treasures = treasures.filter(t => !treasureSack.has(t));
