@@ -6,8 +6,6 @@ process.stdin.on('end', () => {
   console.log(solveProblem(data));
 });
 
-const add = (a, b) => a + b;
-
 /**
  * @param {string} data
  */
@@ -20,7 +18,7 @@ function solveProblem(data) {
     // Note: I'm validating input with regex, you should just split on spaces.
     const dungeons = dungeonsRaw.map(r => {
       const [, name, reward, count, treasuresRaw] =
-          r.match(/^([a-z]+) ([a-z]+) (\d+)\s?([a-z ]*)$/)
+          r.match(/^(.+) (.+) (\d+)\s?(.*)$/)
               .concat(/* Make the regex result a real array */);
       const treasures = treasuresRaw.length ? treasuresRaw.split(' ') : [];
 
@@ -75,6 +73,7 @@ function solveProblem(data) {
      *
      * @param {((typeof dungeons[0])[]} stack
      * @param {typeof dungeons[0]} d
+     * @return {Set<typeof dungeons[0]>}
      */
     function getDeps(stack, d) {
       if (d.deps) {
@@ -104,9 +103,8 @@ function solveProblem(data) {
     // Calculate starting dependencies for each dungeon
     targets.map(getDungeonOrThrow).map(getDeps.bind(this, []));
 
-
-
     const plan = [];  // The list of dungeons we're going to visit
+    const treasureSack = new Set();  // The treasures we've collected
 
     /**
      *
@@ -114,14 +112,15 @@ function solveProblem(data) {
      */
     function visitDungeon(dungeon) {
       plan.push(dungeon.name);
+      treasureSack.add(dungeon.reward);
       dungeons.filter(d => d.deps).forEach(d => {
         d.deps.delete(dungeon);
       });
     }
 
     function getTreasures(treasures) {
-      while (treasures.size > 0) {
-        const nextDungeon = [...treasures]
+      while (treasures.length > 0) {
+        const nextDungeon = treasures
                                 .map(getDungeonOrThrow)
                                 // Sort according to the rules
                                 .sort(
@@ -129,14 +128,13 @@ function solveProblem(data) {
                                         d1.name.localeCompare(d2.name))
                                 // Get the first one
                                 .shift();
-        getTreasures(new Set([...nextDungeon.deps]
-                                 .filter(d => d != nextDungeon)
-                                 .map(d => d.reward)));
-        treasures.delete(nextDungeon.reward);
+        getTreasures(nextDungeon.treasures.filter(t => !treasureSack.has(t)));
         visitDungeon(nextDungeon);
+
+        treasures = treasures.filter(t => !treasureSack.has(t));
       }
     }
-    getTreasures(new Set(targets));
+    getTreasures(targets);
 
     return plan.join(' ');
   } catch (e) {
