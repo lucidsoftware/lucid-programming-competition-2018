@@ -5,7 +5,7 @@ In order to make the best of this unfortunate situation, and maximize your chanc
 With this program's help you'll be able to know your chances of victory before you start a land war in Asia.
 
 ### Rules
-In Risk, territory is gained by attacking a neighboring territory using at least 2 armies. The attack is successful if you defeat all of the armies defending that territory in a series of battles. Each battle is decided by the roll of 2 to 5 dice according to the following rules:
+In Risk, territory is gained by attacking a neighboring territory using at least 2 armies. The attack is successful if you defeat all of the armies defending that territory in a series of battles. Each battle is decided by the roll of 2 to 5 six-sided dice according to the following rules:
 
 - You, the attacker, will roll 1, 2 or 3 dice: You must have at least one more army in your territory than the number of dice you roll.
 - The defender will roll either 1 or 2 dice: To roll 2 dice, he or she must have at least 2 armies on the territory under attack.
