@@ -23,14 +23,14 @@ Some examples:
   - 6 > 5; defender loses 1 army.
 
 ### Problem
-Assuming both players always roll the maximum number of dice, and you continue to attack until either you can no longer attack, or there are no more defenders. What is the probability that you will be able defeat the defender and take the territory?
+Assuming both players always roll the maximum number of dice, and you continue to battle until either you can no longer attack, or there are no more defenders. What is the probability that you will be able defeat the defending army and take the territory?
 
 ## Input
 The first line will contain a single integer `1 <= N <= 100`, the number of attacks to consider.
 Then next `N` lines will each contain two integers `1 <= A <= 1000` (the number of attacking armies) and `1 <= D <= 1000` (the number of defending armies) separated by a single space.
 
 ## Output
-`N` lines, each containing a single number, the probability you will capture the territory, rounded to exactly 6 decimal places.
+`N` lines, each containing a single number, the probability you will capture the territory, accurate within `0.000001`.
 
 ## Examples
 <table>

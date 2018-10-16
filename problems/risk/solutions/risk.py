@@ -42,5 +42,4 @@ def p_victory(attackers, defenders):
 
 for _ in range(int(input())):
     attackers, defenders = map(int, input().split())
-    result = p_victory(attackers, defenders)
-    print("{0:.6f}".format(result))
+    print("{0:.7f}".format(p_victory(attackers, defenders)))
