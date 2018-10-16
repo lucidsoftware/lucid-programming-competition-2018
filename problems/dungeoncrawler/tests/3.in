@@ -1,683 +1,683 @@
 681
-b97 c2a d03 ab7
-aa0 aa0 0
-aa1 aa1 0
-aa2 aa2 1 aa0
-aa3 aa3 0
-aa4 aa4 1 aa5
-aa5 aa5 3 aa3 aa6 aa7
-aa6 aa6 0
-aa7 aa7 1 aa8
-aa8 aa8 0
-aa9 aa9 0
-aaa aaa 1 aa5
+bpn cia dgj abn
+aag aag 0
+aah aah 0
+aai aai 1 aag
+aaj aaj 0
+aak aak 1 aal
+aal aal 3 aaj aam aan
+aam aam 0
+aan aan 1 aao
+aao aao 0
+aap aap 0
+aaa aaa 1 aal
 aab aab 0
 aac aac 0
 aad aad 1 aae
 aae aae 1 aaf
-aaf aaf 1 aa7
-ab0 ab0 8 aa5 ab1 ab2 ab3 ab4 ab5 aad ab6
-ab1 ab1 1 aae
-ab2 ab2 1 aa7
-ab3 ab3 1 aa7
-ab4 ab4 8 ab7 aa5 aa7 ab8 ab9 aba abb abc
-ab7 ab7 31 abd abe aa5 abf ac0 ac1 aa7 ac2 ac3 ac4 ac5 ac6 ac7 ac8 ac9 aca acb acc acd ace acf ad0 aa2 abc ad1 ab9 aae ad2 ad3 abb ad4
-abd abd 5 aa1 ace aa2 ad5 aa5
-ace ace 4 acf ad0 ac9 abf
+aaf aaf 1 aan
+abg abg 8 aal abh abi abj abk abl aad abm
+abh abh 1 aae
+abi abi 1 aan
+abj abj 1 aan
+abk abk 8 abn aal aan abo abp aba abb abc
+abn abn 31 abd abe aal abf acg ach aan aci acj ack acl acm acn aco acp aca acb acc acd ace acf adg aai abc adh abp aae adi adj abb adk
+abd abd 5 aah ace aai adl aal
+ace ace 4 acf adg acp abf
 acf acf 0
-ad0 ad0 0
-ac9 ac9 2 ad6 ad0
-ad6 ad6 0
-abf abf 4 aa9 aaa ad7 aca
-ad7 ad7 1 aa7
-aca aca 1 aa7
-ad5 ad5 0
+adg adg 0
+acp acp 2 adm adg
+adm adm 0
+abf abf 4 aap aaa adn aca
+adn adn 1 aan
+aca aca 1 aan
+adl adl 0
 abe abe 0
-ac0 ac0 1 ad8
-ad8 ad8 7 aa7 ad9 ada ac4 adb adc add
-ad9 ad9 0
-ada ada 3 ade adf ae0
-ade ade 1 ac4
-ac4 ac4 4 ae1 ae2 ab9 ae3
-ae1 ae1 0
-ae2 ae2 1 ae1
-ab9 ab9 4 ae4 ae5 ae6 ae7
-ae4 ae4 2 ad0 ae7
-ae7 ae7 1 aa7
-ae5 ae5 4 ae7 ae8 ae9 ae1
-ae8 ae8 0
-ae9 ae9 1 aa7
-ae6 ae6 0
-ae3 ae3 3 aea aeb aec
-aea aea 1 ae1
-aeb aeb 1 aa7
+acg acg 1 ado
+ado ado 7 aan adp ada ack adb adc add
+adp adp 0
+ada ada 3 ade adf aeg
+ade ade 1 ack
+ack ack 4 aeh aei abp aej
+aeh aeh 0
+aei aei 1 aeh
+abp abp 4 aek ael aem aen
+aek aek 2 adg aen
+aen aen 1 aan
+ael ael 4 aen aeo aep aeh
+aeo aeo 0
+aep aep 1 aan
+aem aem 0
+aej aej 3 aea aeb aec
+aea aea 1 aeh
+aeb aeb 1 aan
 aec aec 0
-adf adf 1 aa7
-ae0 ae0 0
+adf adf 1 aan
+aeg aeg 0
 adb adb 0
 adc adc 0
 add add 0
-ac1 ac1 3 aed aee ac4
+ach ach 3 aed aee ack
 aed aed 0
 aee aee 2 aef acf
-aef aef 2 af0 aca
-af0 af0 0
-ac2 ac2 5 af1 af2 af3 af4 af5
-af1 af1 8 af6 af7 af8 af9 afa afb afc afd
-af6 af6 0
-af7 af7 0
-af8 af8 5 aa5 afe ab9 aae abb
-afe afe 2 aa7 ab1
-abb abb 3 aae ab9 aff
-aff aff 3 aa5 aae ac4
-af9 af9 3 ab9 aae abb
+aef aef 2 afg aca
+afg afg 0
+aci aci 5 afh afi afj afk afl
+afh afh 8 afm afn afo afp afa afb afc afd
+afm afm 0
+afn afn 0
+afo afo 5 aal afe abp aae abb
+afe afe 2 aan abh
+abb abb 3 aae abp aff
+aff aff 3 aal aae ack
+afp afp 3 abp aae abb
 afa afa 0
 afb afb 0
 afc afc 0
 afd afd 0
-af2 af2 2 b00 b01
-b00 b00 1 ac0
-b01 b01 1 ac0
-af3 af3 15 b02 b03 b04 b05 b06 b07 b08 b09 b0a b0b b0c b0d b0e b0f b10
-b02 b02 8 abd aa5 ac8 ab9 ace aa2 aae abb
-ac8 ac8 0
-b03 b03 2 abd ace
-b04 b04 2 abd ace
-b05 b05 4 abd aa5 abe b11
-b11 b11 2 ace abc
+afi afi 2 bgg bgh
+bgg bgg 1 acg
+bgh bgh 1 acg
+afj afj 15 bgi bgj bgk bgl bgm bgn bgo bgp bga bgb bgc bgd bge bgf bhg
+bgi bgi 8 abd aal aco abp ace aai aae abb
+aco aco 0
+bgj bgj 2 abd ace
+bgk bgk 2 abd ace
+bgl bgl 4 abd aal abe bhh
+bhh bhh 2 ace abc
 abc abc 0
-b06 b06 2 abd ace
-b07 b07 5 b12 abd b13 ac0 ace
-b12 b12 0
-b13 b13 0
-b08 b08 0
-b09 b09 2 abd acf
-b0a b0a 2 abd ac8
-b0b b0b 1 abd
-b0c b0c 0
-b0d b0d 2 abd ac8
-b0e b0e 0
-b0f b0f 2 b12 abd
-b10 b10 3 b12 abd ac9
-af4 af4 7 b14 b15 b16 b17 b18 b19 b1a
-b14 b14 1 acc
-acc acc 5 b1b b1c aca b1d ad0
-b1b b1b 2 b1e ace
-b1e b1e 1 b1f
-b1f b1f 1 b20
-b20 b20 0
-b1c b1c 3 b21 b22 ace
-b21 b21 0
-b22 b22 2 b1e b23
-b23 b23 2 b24 aca
-b24 b24 1 b25
-b25 b25 0
-b1d b1d 1 ac9
-b15 b15 1 acc
-b16 b16 1 acc
-b17 b17 1 acc
-b18 b18 1 acc
-b19 b19 1 acc
-b1a b1a 1 acc
-af5 af5 0
-ac3 ac3 5 aa5 aab b26 aa7 ab1
-b26 b26 1 aa7
-ac5 ac5 7 b27 ac6 ac4 aa2 b28 abc acf
-b27 b27 1 aac
-ac6 ac6 7 b29 b2a b2b b2c b2d b2e b2f
-b29 b29 10 aa2 b2a b30 b31 ac0 ab9 b32 ad9 ac4 aca
-b2a b2a 7 abf b33 b34 aa2 b35 b12 acb
-b33 b33 1 b36
-b36 b36 2 abf b37
-b37 b37 1 abf
-b34 b34 2 b38 aa5
-b38 b38 2 b39 aa7
-b39 b39 0
-b35 b35 0
-acb acb 7 b3a b1b acc b1d ac9 ac4 b3b
-b3a b3a 1 b3c
-b3c b3c 0
-b3b b3b 0
-b30 b30 0
-b31 b31 0
-b32 b32 8 ac9 aca b3d b3e b3f acb b40 b41
-b3d b3d 3 b3e b3f b41
-b3e b3e 0
-b3f b3f 1 b42
-b42 b42 0
-b41 b41 1 b43
-b43 b43 1 b44
-b44 b44 0
-b40 b40 0
-b2b b2b 10 b2e aa2 b32 aa5 ab9 b12 ac0 acb b44 b45
-b2e b2e 13 b29 b2d b2c b2f b46 ac4 aa2 b32 b47 ac0 abc b48 b35
-b2d b2d 4 b49 aa2 b4a b32
-b49 b49 6 abf b33 b34 b35 acb ac9
-b4a b4a 1 b47
-b47 b47 1 b4b
-b4b b4b 1 b4c
-b4c b4c 2 ab9 aa7
-b2c b2c 2 aa2 b32
-b2f b2f 1 b32
-b46 b46 11 aa2 b13 ab9 b32 ad9 ac4 acb b1d ace aba b4d
+bgm bgm 2 abd ace
+bgn bgn 5 bhi abd bhj acg ace
+bhi bhi 0
+bhj bhj 0
+bgo bgo 0
+bgp bgp 2 abd acf
+bga bga 2 abd aco
+bgb bgb 1 abd
+bgc bgc 0
+bgd bgd 2 abd aco
+bge bge 0
+bgf bgf 2 bhi abd
+bhg bhg 3 bhi abd acp
+afk afk 7 bhk bhl bhm bhn bho bhp bha
+bhk bhk 1 acc
+acc acc 5 bhb bhc aca bhd adg
+bhb bhb 2 bhe ace
+bhe bhe 1 bhf
+bhf bhf 1 big
+big big 0
+bhc bhc 3 bih bii ace
+bih bih 0
+bii bii 2 bhe bij
+bij bij 2 bik aca
+bik bik 1 bil
+bil bil 0
+bhd bhd 1 acp
+bhl bhl 1 acc
+bhm bhm 1 acc
+bhn bhn 1 acc
+bho bho 1 acc
+bhp bhp 1 acc
+bha bha 1 acc
+afl afl 0
+acj acj 5 aal aab bim aan abh
+bim bim 1 aan
+acl acl 7 bin acm ack aai bio abc acf
+bin bin 1 aac
+acm acm 7 bip bia bib bic bid bie bif
+bip bip 10 aai bia bjg bjh acg abp bji adp ack aca
+bia bia 7 abf bjj bjk aai bjl bhi acb
+bjj bjj 1 bjm
+bjm bjm 2 abf bjn
+bjn bjn 1 abf
+bjk bjk 2 bjo aal
+bjo bjo 2 bjp aan
+bjp bjp 0
+bjl bjl 0
+acb acb 7 bja bhb acc bhd acp ack bjb
+bja bja 1 bjc
+bjc bjc 0
+bjb bjb 0
+bjg bjg 0
+bjh bjh 0
+bji bji 8 acp aca bjd bje bjf acb bkg bkh
+bjd bjd 3 bje bjf bkh
+bje bje 0
+bjf bjf 1 bki
+bki bki 0
+bkh bkh 1 bkj
+bkj bkj 1 bkk
+bkk bkk 0
+bkg bkg 0
+bib bib 10 bie aai bji aal abp bhi acg acb bkk bkl
+bie bie 13 bip bid bic bif bkm ack aai bji bkn acg abc bko bjl
+bid bid 4 bkp aai bka bji
+bkp bkp 6 abf bjj bjk bjl acb acp
+bka bka 1 bkn
+bkn bkn 1 bkb
+bkb bkb 1 bkc
+bkc bkc 2 abp aan
+bic bic 2 aai bji
+bif bif 1 bji
+bkm bkm 11 aai bhj abp bji adp ack acb bhd ace aba bkd
 aba aba 0
-b4d b4d 4 ac9 b1d acb b3b
-b48 b48 1 b4e
-b4e b4e 0
-b45 b45 0
-b28 b28 1 aa2
-ac7 ac7 5 ac6 abd aa5 aa2 b28
-acd acd 1 b12
-ad1 ad1 0
-ad2 ad2 2 ac9 b12
-ad3 ad3 4 aa5 aa1 ae3 b4f
-b4f b4f 0
-ad4 ad4 1 aa7
-ab8 ab8 5 aa7 b50 aa4 abe b51
-b50 b50 2 aa5 ab7
-b51 b51 0
-ab5 ab5 0
-ab6 ab6 1 ab4
-b52 b52 0
-b53 b53 0
-b54 b54 1 aa5
-b55 b55 1 aa5
-b56 b56 0
-b57 b57 1 b58
-b58 b58 9 b59 b5a b5b ad9 b5c b5d b5e b5f b60
-b59 b59 21 b61 abf b33 b62 b53 b63 b64 b65 ab7 b66 b67 ab9 b68 b69 aa5 b6a b6b b6c b6d b5b b6e
-b61 b61 3 ab7 b6f ad2
-b6f b6f 0
-b62 b62 0
-b63 b63 2 aa7 aa5
-b64 b64 0
-b65 b65 2 aa5 ab7
-b66 b66 5 aa5 ab7 ac0 b70 b71
-b70 b70 0
-b71 b71 0
-b67 b67 1 abe
-b68 b68 8 ab7 ab9 b72 acb b3e b3f aae abb
-b72 b72 2 b73 acb
-b73 b73 1 aa5
-b69 b69 2 b74 ab7
-b74 b74 2 aaf ac4
-b6a b6a 1 ab1
-b6b b6b 0
-b6c b6c 3 b75 b76 abf
-b75 b75 0
-b76 b76 4 ab7 b61 b6b abf
-b6d b6d 4 b75 b76 abf b69
-b5b b5b 0
-b6e b6e 1 b53
-b5a b5a 10 b77 b78 ac5 aa2 b28 b79 b6f b7a b7b b7c
-b77 b77 24 abf aa5 ab7 b79 b7d b6f b61 b64 b7e ab9 b7f aca b80 aa7 ac4 b81 b82 aa2 b6b b4e ab8 acf ae1 b75
-b79 b79 4 abd aa5 ab8 aa7
-b7d b7d 2 ab9 b81
-b81 b81 7 ab9 ac4 b83 b84 b85 ab7 ac0
-b83 b83 3 b86 b87 b88
-b86 b86 4 b89 aa7 ac4 b87
-b89 b89 0
-b87 b87 1 aa5
-b88 b88 0
-b84 b84 2 b8a b8b
-b8a b8a 4 b89 aa7 ac4 b87
-b8b b8b 4 ae1 ae2 ab9 ae3
-b85 b85 0
-b7e b7e 8 ab7 abf ac0 ada b4b ac6 aa2 b8c
-b8c b8c 4 ab7 aa2 ac6 b4b
-b7f b7f 6 aa7 ab7 b6f abe aca acf
-b80 b80 3 b8d b67 b8e
-b8d b8d 0
-b8e b8e 1 b67
-b82 b82 3 ab7 b61 ab9
-b78 b78 1 b77
-b7a b7a 4 ab7 b61 b77 b8f
-b8f b8f 0
-b7b b7b 7 ac0 ada b7e b90 b91 b92 b93
-b90 b90 0
-b91 b91 0
-b92 b92 2 ac4 aa5
-b93 b93 1 b8c
-b7c b7c 5 ab7 b94 ab8 b95 b96
-b94 b94 0
-b95 b95 1 b97
-b97 b97 18 aa7 ab7 ab8 aa5 ab9 ac1 aed abe abf aca b66 ac0 b98 b79 b99 b9a aaf b9b
-b98 b98 1 b26
-b99 b99 5 ab7 ac4 acf ad0 b4b
-b9a b9a 4 abe ab7 aa5 ab9
-b9b b9b 1 b9c
-b9c b9c 0
-b96 b96 2 ab7 ab8
-b5c b5c 8 b75 ab7 b61 b5b ac5 aa2 b28 abc
-b5d b5d 7 ab7 b7b ab9 abb aa5 ae3 b5e
-b5e b5e 2 ab7 b7b
-b5f b5f 1 b77
-b60 b60 1 b77
-b9d b9d 10 b63 b61 aa5 ab7 aa7 b9e ab9 aba ac4 b9f
-b9e b9e 1 aa7
-b9f b9f 1 ba0
-ba0 ba0 3 ba1 aa7 ba2
-ba1 ba1 1 ba2
-ba2 ba2 1 ae2
-ba3 ba3 1 b9d
-ba4 ba4 1 aa5
-ba5 ba5 1 aa5
-ba6 ba6 2 aa7 ba7
-ba7 ba7 0
-ba8 ba8 0
-ba9 ba9 1 b7b
-baa baa 1 ab7
-bab bab 1 ab7
-bac bac 1 ab7
-bad bad 1 ab7
-bae bae 1 ab7
-baf baf 1 ab7
-bb0 bb0 1 ab7
-bb1 bb1 1 ab7
-bb2 bb2 1 ab7
-bb3 bb3 1 ab7
-bb4 bb4 1 ab7
-bb5 bb5 1 ab7
-bb6 bb6 1 ab7
-bb7 bb7 1 ab7
-bb8 bb8 1 ab7
-bb9 bb9 1 ab7
-bba bba 1 ab7
-bbb bbb 1 ab7
-bbc bbc 1 ab7
-bbd bbd 1 ab7
-bbe bbe 1 ab7
-bbf bbf 1 ab7
-bc0 bc0 1 ab7
-bc1 bc1 1 ab7
-bc2 bc2 1 ab7
-bc3 bc3 1 ab7
-bc4 bc4 1 ab7
-bc5 bc5 1 ab7
-bc6 bc6 1 ab7
-bc7 bc7 1 ab7
-bc8 bc8 1 ab7
-bc9 bc9 1 b44
-bca bca 1 aa5
-bcb bcb 1 aa5
+bkd bkd 4 acp bhd acb bjb
+bko bko 1 bke
+bke bke 0
+bkl bkl 0
+bio bio 1 aai
+acn acn 5 acm abd aal aai bio
+acd acd 1 bhi
+adh adh 0
+adi adi 2 acp bhi
+adj adj 4 aal aah aej bkf
+bkf bkf 0
+adk adk 1 aan
+abo abo 5 aan blg aak abe blh
+blg blg 2 aal abn
+blh blh 0
+abl abl 0
+abm abm 1 abk
+bli bli 0
+blj blj 0
+blk blk 1 aal
+bll bll 1 aal
+blm blm 0
+bln bln 1 blo
+blo blo 9 blp bla blb adp blc bld ble blf bmg
+blp blp 21 bmh abf bjj bmi blj bmj bmk bml abn bmm bmn abp bmo bmp aal bma bmb bmc bmd blb bme
+bmh bmh 3 abn bmf adi
+bmf bmf 0
+bmi bmi 0
+bmj bmj 2 aan aal
+bmk bmk 0
+bml bml 2 aal abn
+bmm bmm 5 aal abn acg bng bnh
+bng bng 0
+bnh bnh 0
+bmn bmn 1 abe
+bmo bmo 8 abn abp bni acb bje bjf aae abb
+bni bni 2 bnj acb
+bnj bnj 1 aal
+bmp bmp 2 bnk abn
+bnk bnk 2 aaf ack
+bma bma 1 abh
+bmb bmb 0
+bmc bmc 3 bnl bnm abf
+bnl bnl 0
+bnm bnm 4 abn bmh bmb abf
+bmd bmd 4 bnl bnm abf bmp
+blb blb 0
+bme bme 1 blj
+bla bla 10 bnn bno acl aai bio bnp bmf bna bnb bnc
+bnn bnn 24 abf aal abn bnp bnd bmf bmh bmk bne abp bnf aca bog aan ack boh boi aai bmb bke abo acf aeh bnl
+bnp bnp 4 abd aal abo aan
+bnd bnd 2 abp boh
+boh boh 7 abp ack boj bok bol abn acg
+boj boj 3 bom bon boo
+bom bom 4 bop aan ack bon
+bop bop 0
+bon bon 1 aal
+boo boo 0
+bok bok 2 boa bob
+boa boa 4 bop aan ack bon
+bob bob 4 aeh aei abp aej
+bol bol 0
+bne bne 8 abn abf acg ada bkb acm aai boc
+boc boc 4 abn aai acm bkb
+bnf bnf 6 aan abn bmf abe aca acf
+bog bog 3 bod bmn boe
+bod bod 0
+boe boe 1 bmn
+boi boi 3 abn bmh abp
+bno bno 1 bnn
+bna bna 4 abn bmh bnn bof
+bof bof 0
+bnb bnb 7 acg ada bne bpg bph bpi bpj
+bpg bpg 0
+bph bph 0
+bpi bpi 2 ack aal
+bpj bpj 1 boc
+bnc bnc 5 abn bpk abo bpl bpm
+bpk bpk 0
+bpl bpl 1 bpn
+bpn bpn 18 aan abn abo aal abp ach aed abe abf aca bmm acg bpo bnp bpp bpa aaf bpb
+bpo bpo 1 bim
+bpp bpp 5 abn ack acf adg bkb
+bpa bpa 4 abe abn aal abp
+bpb bpb 1 bpc
+bpc bpc 0
+bpm bpm 2 abn abo
+blc blc 8 bnl abn bmh blb acl aai bio abc
+bld bld 7 abn bnb abp abb aal aej ble
+ble ble 2 abn bnb
+blf blf 1 bnn
+bmg bmg 1 bnn
+bpd bpd 10 bmj bmh aal abn aan bpe abp aba ack bpf
+bpe bpe 1 aan
+bpf bpf 1 bag
+bag bag 3 bah aan bai
+bah bah 1 bai
+bai bai 1 aei
+baj baj 1 bpd
+bak bak 1 aal
+bal bal 1 aal
+bam bam 2 aan ban
+ban ban 0
+bao bao 0
+bap bap 1 bnb
+baa baa 1 abn
+bab bab 1 abn
+bac bac 1 abn
+bad bad 1 abn
+bae bae 1 abn
+baf baf 1 abn
+bbg bbg 1 abn
+bbh bbh 1 abn
+bbi bbi 1 abn
+bbj bbj 1 abn
+bbk bbk 1 abn
+bbl bbl 1 abn
+bbm bbm 1 abn
+bbn bbn 1 abn
+bbo bbo 1 abn
+bbp bbp 1 abn
+bba bba 1 abn
+bbb bbb 1 abn
+bbc bbc 1 abn
+bbd bbd 1 abn
+bbe bbe 1 abn
+bbf bbf 1 abn
+bcg bcg 1 abn
+bch bch 1 abn
+bci bci 1 abn
+bcj bcj 1 abn
+bck bck 1 abn
+bcl bcl 1 abn
+bcm bcm 1 abn
+bcn bcn 1 abn
+bco bco 1 abn
+bcp bcp 1 bkk
+bca bca 1 aal
+bcb bcb 1 aal
 bcc bcc 0
 bcd bcd 0
-bce bce 6 aa5 ab8 aa7 b7e ac4 b5d
+bce bce 6 aal abo aan bne ack bld
 bcf bcf 0
-bd0 bd0 1 bd1
-bd1 bd1 5 aa5 aae aa7 aaf bd2
-bd2 bd2 1 aa7
-bd3 bd3 2 bd1 aa5
-bd4 bd4 0
-bd5 bd5 0
-bd6 bd6 0
-bd7 bd7 0
-bd8 bd8 0
-bd9 bd9 0
+bdg bdg 1 bdh
+bdh bdh 5 aal aae aan aaf bdi
+bdi bdi 1 aan
+bdj bdj 2 bdh aal
+bdk bdk 0
+bdl bdl 0
+bdm bdm 0
+bdn bdn 0
+bdo bdo 0
+bdp bdp 0
 bda bda 0
-bdb bdb 7 b66 ac4 ab9 bdc aa5 aae ae3
-bdc bdc 5 aa5 bdd bde bdf ab9
-bdd bdd 3 be0 aaf be1
-be0 be0 0
-be1 be1 2 aaf be2
-be2 be2 2 aaf be3
-be3 be3 0
-bde bde 6 be0 aaf be4 be1 be5 ac4
-be4 be4 4 be0 aaf be1 be6
-be6 be6 2 aaf be7
-be7 be7 0
-be5 be5 3 be0 be1 aaf
+bdb bdb 7 bmm ack abp bdc aal aae aej
+bdc bdc 5 aal bdd bde bdf abp
+bdd bdd 3 beg aaf beh
+beg beg 0
+beh beh 2 aaf bei
+bei bei 2 aaf bej
+bej bej 0
+bde bde 6 beg aaf bek beh bel ack
+bek bek 4 beg aaf beh bem
+bem bem 2 aaf ben
+ben ben 0
+bel bel 3 beg beh aaf
 bdf bdf 1 aaf
-be8 be8 5 aa5 bdd bde bdf ab9
-be9 be9 0
-bea bea 1 ab7
-beb beb 8 aba ab7 ab3 ab2 ba7 aae ab9 abb
+beo beo 5 aal bdd bde bdf abp
+bep bep 0
+bea bea 1 abn
+beb beb 8 aba abn abj abi ban aae abp abb
 bec bec 0
 bed bed 1 bee
-bee bee 38 ab7 b77 b78 b61 b6b b58 b4b aa5 abf b33 ac0 b80 aa7 ab9 bcd b82 ada b7b bef bf0 b9b b69 b91 bf1 bf2 bf3 bf4 bf5 bf6 bf7 bf8 bf9 bfa bfb bfc b63 ad3 bfd
-bef bef 3 ab7 b68 bfe
+bee bee 38 abn bnn bno bmh bmb blo bkb aal abf bjj acg bog aan abp bcd boi ada bnb bef bfg bpb bmp bph bfh bfi bfj bfk bfl bfm bfn bfo bfp bfa bfb bfc bmj adj bfd
+bef bef 3 abn bmo bfe
 bfe bfe 0
-bf0 bf0 2 ba4 abf
-bf1 bf1 4 b77 ac0 bcd b63
-bf2 bf2 4 ab7 b61 bcd b82
-bf3 bf3 7 ad3 ab7 b61 bff bcd b9b aa5
-bff bff 2 b61 b6b
-bf4 bf4 2 b61 b6b
-bf5 bf5 2 b61 b6b
-bf6 bf6 3 b61 b6b bcd
-bf7 bf7 3 b61 b6b bcd
-bf8 bf8 1 b61
-bf9 bf9 3 ab7 bcd ad2
-bfa bfa 3 ab7 bcd ad2
-bfb bfb 4 ab7 b61 b80 aa2
-bfc bfc 2 b61 b6b
-bfd bfd 4 b77 ac0 bcd b63
-c00 c00 1 aa5
-c01 c01 17 b77 ab7 b6b aa5 c02 c03 c04 b66 c05 ab9 c06 ac4 c07 ae3 aae abb b75
-c02 c02 1 b64
-c03 c03 2 b66 b64
-c04 c04 3 ab7 b61 b6a
-c05 c05 7 b6a b66 ab9 c08 bc8 aba b75
-c08 c08 5 aa7 bc8 b66 ab9 abb
-c06 c06 5 aa5 ab7 b66 ab4 ac4
-c07 c07 0
-c09 c09 3 aa7 b78 b77
-c0a c0a 0
-c0b c0b 5 aaf bda aa7 aca c0c
-c0c c0c 1 aaf
-c0d c0d 4 c0b b94 acb c0e
-c0e c0e 1 c0b
-c0f c0f 0
-c10 c10 4 c11 c12 c13 b9d
-c11 c11 27 ab7 b53 abf b66 b62 b57 b61 b33 aa7 aa5 b7b b34 ac0 b35 ada b7e ab9 ae3 b8e ba1 b92 b40 c14 aae abb b93 c15
-c14 c14 17 ac4 ade b81 bfe c16 b31 c17 bed b68 b90 b91 b5b c18 ac6 acb b75 aa2
-c16 c16 0
-c17 c17 1 ab7
-c18 c18 0
-c15 c15 11 ac4 aa5 aae ab9 ae3 b9b c19 bdf be8 be9 bdb
-c19 c19 1 aae
-c12 c12 10 c01 b6f c1a b79 ba6 b77 c1b b7d b80 b9b
-c1a c1a 0
-c1b c1b 1 c1c
-c1c c1c 7 c1d aae c1e ab9 ac4 c1f acf
-c1d c1d 2 b75 ab7
-c1e c1e 1 aa7
-c1f c1f 8 ab7 b61 b77 b78 b7d ab9 aae abb
-c13 c13 2 c20 c21
-c20 c20 0
-c21 c21 1 ba3
-c22 c22 1 b77
-c23 c23 0
-c24 c24 0
-c25 c25 1 b77
-c26 c26 1 ba3
-c27 c27 3 b77 b61 abf
-c28 c28 1 b77
-c29 c29 4 ab9 c15 aa5 ac4
-c2a c2a 6 c2b c2c c2d c2e c2f c30
-c2b c2b 0
-c2c c2c 10 aa5 aae aa7 ab9 ac4 aaf aca ae3 abb c31
-c31 c31 2 b83 c32
-c32 c32 6 c33 aae c34 ab9 aa4 ae3
-c33 c33 0
-c34 c34 0
-c2d c2d 21 c35 ba7 b34 b6f ab8 b7d b63 b4b ac5 b66 b79 b61 b33 aa5 c36 aa7 c37 c38 c39 c3a c15
-c35 c35 4 ab7 aa5 aa7 ac4
-c36 c36 2 aa7 aa5
-c37 c37 3 c3b c3c aa5
-c3b c3b 2 aca aa5
-c3c c3c 1 aca
-c38 c38 24 ac0 abf c10 b98 ab0 ab5 ab4 aed ab9 abe ac4 c3d b8f bed c3e b30 c3f bce acf abc c40 b9b b81 c41
-c3d c3d 1 b83
-c3e c3e 1 ad9
-c3f c3f 2 ab7 aa7
-c40 c40 7 aa5 aae c42 aa7 ab9 ac4 c15
-c42 c42 1 aa7
-c41 c41 1 c10
-c39 c39 7 ab7 ac1 aee b73 b95 b99 c43
-c43 c43 19 ab7 abf aa7 b66 aee aa5 b95 ac0 ae3 bce ab9 ac4 c44 aca bcc c45 ad2 b9b c15
-c44 c44 1 aa7
-c45 c45 0
-c3a c3a 2 ab9 ac0
-c2e c2e 19 b77 c46 aba beb ada ab1 c42 b7f b80 c47 b81 c06 ac6 c48 ad5 c05 bfe c49 c4a
-c46 c46 2 aa5 c4b
-c4b c4b 1 aa5
-c47 c47 1 c4c
-c4c c4c 3 aa5 b9b ab9
-c48 c48 19 ab7 aaf ab9 b66 aed abf c1e b77 ac4 aa5 aa7 c4d ac1 aae b9b c06 c4e aca abb
-c4d c4d 4 ab7 ada b7b ab9
-c4e c4e 0
-c49 c49 7 c4f c50 c51 bd3 aa2 ab2 b75
-c4f c4f 9 ab9 bed ae3 aa1 aa4 c52 ac4 abf b33
-c52 c52 0
-c50 c50 0
-c51 c51 17 b66 ab7 b77 b78 b61 b64 b99 abf b63 ab8 b95 aa5 ac0 b9a b8f bcc c53
-c53 c53 2 aae c54
-c54 c54 4 aa7 c55 aba aca
-c55 c55 2 aa7 aae
-c4a c4a 2 ab7 b61
-c2f c2f 22 c20 c56 c57 c58 bce b53 abf b62 b58 b7b c01 c1a b9e ac8 c59 c5a b67 c5b b7a c5c c3a c5d
-c56 c56 4 b75 ab7 b61 b5b
-c57 c57 1 b77
-c58 c58 4 b77 bce b7b b6b
-c59 c59 2 ab9 aa5
-c5a c5a 1 aa7
-c5b c5b 6 c5e c5f c60 c61 c62 c63
-c5e c5e 28 aa7 ab7 aa5 b77 b33 c64 bee bf0 c57 ba7 b6f b66 b34 ab9 ac4 aba ac0 b68 b91 c65 c66 c67 ba6 c68 aae abb b9b b75
-c64 c64 44 c69 c6a c6b c6c c6d c6e c6f c70 c71 c72 c73 c74 c75 c76 c77 c78 c79 c7a c7b c7c c7d c7e c7f c80 c81 c82 c83 c84 c85 c86 c87 c88 c89 c8a c8b c8c c8d c8e c8f c90 c91 c92 c93 c94
-c69 c69 12 ab7 b61 b78 b77 b79 ab9 c95 b6b acf b36 abf b75
-c95 c95 7 bf0 b6f b34 ab9 ac4 b81 abf
-c6a c6a 5 ab7 b61 b78 b64 b57
-c6b c6b 9 ab7 b61 b78 b77 b79 ab9 c95 b6b acf
-c6c c6c 6 ab7 b61 b78 b64 b57 c96
-c96 c96 2 b61 c07
-c6d c6d 6 ab7 b61 b78 b64 ab9 b81
-c6e c6e 13 ab7 b61 b78 c97 b77 b6f aa5 b7e ab9 ac4 b81 c98 c99
-c97 c97 0
-c98 c98 1 aa2
-c99 c99 4 ab7 b6f b61 ab9
-c6f c6f 21 ab7 b61 b78 c97 b77 b6f aa5 b7e ab9 ac4 b81 b68 c9a aca c98 ae3 ace aae abb aa2 c99
-c9a c9a 3 ab7 b6f b61
-c70 c70 18 ab7 b61 b78 c97 b77 b6f aa5 b7e ab9 ac4 b81 b68 c9b c99 c98 ae3 aae abb
-c9b c9b 3 ab7 b61 b6f
-c71 c71 13 ab7 b61 b78 b77 b6f ab9 ac4 b81 b68 b9b c9c ace aa2
-c9c c9c 0
-c72 c72 7 ab7 b61 b78 b77 b6f c9d c98
-c9d c9d 5 ab7 ab9 b40 aae abb
-c73 c73 16 ab7 b61 b78 b64 b27 aa5 c97 b6f ab9 ac4 b68 b81 aa0 ace c9e ad3
-c9e c9e 1 b61
-c74 c74 4 ab7 b61 b78 b77
-c75 c75 9 ab7 b61 b78 b64 aa5 c69 ac4 ad3 b81
-c76 c76 4 ab7 b61 b78 b64
-c77 c77 15 ab7 b61 b78 b64 b27 aa5 c97 ab9 ac4 b68 b81 aa0 aba ace ad3
-c78 c78 4 ab7 b61 b78 b64
-c79 c79 6 ab7 b61 b78 b64 b57 c09
-c7a c7a 5 ab7 b61 b78 b64 ab9
-c7b c7b 5 ab7 b61 b78 b64 aa5
-c7c c7c 4 ab7 b61 b78 b64
-c7d c7d 5 ab7 b61 b78 b64 ab9
-c7e c7e 7 ab7 b61 b78 b77 ab9 aa2 c9c
-c7f c7f 10 ab7 b61 b78 b64 ab9 c97 aa5 ac4 b81 c98
-c80 c80 15 ab7 b61 b78 b64 b27 aa5 c97 b6f ab9 ac4 b68 b81 aa0 ace ad3
-c81 c81 6 ab7 b61 b78 b64 ab9 b75
-c82 c82 6 ab7 b61 b78 b64 c9f c83
-c9f c9f 4 ab7 b61 b78 b64
-c83 c83 6 ab7 b61 b78 b64 ab9 b75
-c84 c84 4 ab7 b61 b78 b64
-c85 c85 5 ab7 b61 b78 b64 ca0
-ca0 ca0 2 b75 ab7
-c86 c86 4 ab7 b61 b78 b64
-c87 c87 6 ab7 b61 b78 b64 b6f b77
-c88 c88 5 ab7 b61 b78 b64 b6f
-c89 c89 5 ab7 b61 b78 b64 b6f
-c8a c8a 4 ab7 b61 b78 b64
-c8b c8b 5 ab7 b61 b78 b64 b6f
-c8c c8c 6 ab7 b61 b78 b77 b79 b34
-c8d c8d 4 ab7 b61 b78 b77
-c8e c8e 4 ab7 b61 b78 b64
-c8f c8f 7 ab7 b61 b78 b64 b79 aa5 b6f
-c90 c90 5 ab7 b61 b78 b64 b66
-c91 c91 4 ab7 b61 b78 b64
-c92 c92 4 ab7 b61 b78 b64
-c93 c93 4 ab7 b61 b78 b77
-c94 c94 18 ab7 b61 b78 c97 b77 b6f aa5 b7e ab9 ac4 b81 b68 c9b c99 c98 ae3 aae abb
-c65 c65 1 b77
-c66 c66 4 ca1 ca2 ca3 ca4
-ca1 ca1 2 b61 b6b
-ca2 ca2 2 b61 b6b
-ca3 ca3 2 b61 b6b
-ca4 ca4 2 b61 b6b
-c67 c67 75 ca5 ca6 ca7 ca8 ca9 caa cab cac cad cae caf cb0 cb1 cb2 cb3 cb4 cb5 cb6 cb7 cb8 cb9 cba cbb cbc cbd cbe cbf cc0 cc1 cc2 cc3 cc4 cc5 cc6 cc7 cc8 cc9 cca ccb ccc ccd cce ccf cd0 cd1 cd2 cd3 cd4 cd5 cd6 cd7 cd8 cd9 cda cdb cdc cdd cde cdf ce0 ce1 ce2 ce3 ce4 ce5 ce6 ce7 ce8 ce9 cea ceb cec ced cee cef
-ca5 ca5 4 b75 ab7 b61 b5b
-ca6 ca6 4 b75 ab7 b61 b5b
-ca7 ca7 4 b75 ab7 b61 b5b
-ca8 ca8 4 b75 ab7 b61 b5b
-ca9 ca9 4 b75 ab7 b61 b5b
-caa caa 4 b75 ab7 b61 b5b
-cab cab 4 b75 ab7 b61 b5b
-cac cac 4 b75 ab7 b61 b5b
-cad cad 4 b75 ab7 b61 b5b
-cae cae 4 b75 ab7 b61 b5b
-caf caf 4 b75 ab7 b61 b5b
-cb0 cb0 4 b75 ab7 b61 b5b
-cb1 cb1 4 b75 ab7 b61 b5b
-cb2 cb2 4 b75 ab7 b61 b5b
-cb3 cb3 4 b75 ab7 b61 b5b
-cb4 cb4 4 b75 ab7 b61 b5b
-cb5 cb5 4 b75 ab7 b61 b5b
-cb6 cb6 4 b75 ab7 b61 b5b
-cb7 cb7 4 b75 ab7 b61 b5b
-cb8 cb8 4 b75 ab7 b61 b5b
-cb9 cb9 4 b75 ab7 b61 b5b
-cba cba 4 b75 ab7 b61 b5b
-cbb cbb 4 b75 ab7 b61 b5b
-cbc cbc 5 b75 ab7 b61 b5b cf0
-cf0 cf0 4 b75 ab7 b61 b5b
-cbd cbd 3 b75 ab7 cf1
-cf1 cf1 3 b75 ab7 cd0
-cd0 cd0 2 b75 ab7
-cbe cbe 2 b75 ab7
-cbf cbf 2 b75 ab7
-cc0 cc0 3 b75 ab7 b61
-cc1 cc1 3 b75 ab7 b61
-cc2 cc2 3 b75 ab7 b61
-cc3 cc3 3 b75 ab7 b61
-cc4 cc4 3 b75 ab7 b61
-cc5 cc5 3 b75 ab7 b61
-cc6 cc6 3 b75 ab7 b61
-cc7 cc7 3 b75 ab7 b61
-cc8 cc8 3 b75 ab7 b61
-cc9 cc9 3 b75 ab7 b61
-cca cca 3 b75 ab7 b61
-ccb ccb 3 b75 ab7 b61
-ccc ccc 3 b75 ab7 b61
-ccd ccd 3 b75 ab7 b61
-cce cce 3 b75 ab7 b61
-ccf ccf 3 b75 ab7 b61
-cd1 cd1 2 b75 ab7
-cd2 cd2 8 b75 ab7 ab9 b6b cd7 b66 b61 b76
-cd7 cd7 8 b75 ab7 ab9 b6b b66 b61 b76 bf0
-cd3 cd3 2 b75 ab7
-cd4 cd4 2 b75 ab7
-cd5 cd5 2 b75 ab7
-cd6 cd6 3 b75 ab7 b61
-cd8 cd8 2 b75 ab7
-cd9 cd9 2 b75 ab7
-cda cda 4 b75 ab7 b61 b63
-cdb cdb 4 b75 ab7 b61 cf2
-cf2 cf2 3 b75 ab7 b61
-cdc cdc 3 b75 ab7 b61
-cdd cdd 5 b75 ab7 b61 ac4 cf3
-cf3 cf3 1 aae
-cde cde 4 b75 b76 ced abf
-ced ced 3 b75 b76 abf
-cdf cdf 4 b75 b76 ced abf
-ce0 ce0 3 b75 b76 abf
-ce1 ce1 3 b75 b76 abf
-ce2 ce2 3 b75 b76 abf
-ce3 ce3 3 b75 b76 abf
-ce4 ce4 3 ab7 b61 b76
-ce5 ce5 3 ab7 b61 b76
-ce6 ce6 3 ab7 b61 b76
-ce7 ce7 3 ab7 b61 b76
-ce8 ce8 3 b75 b76 abf
-ce9 ce9 3 b75 b76 abf
-cea cea 3 b75 b76 abf
-ceb ceb 3 b75 b76 abf
-cec cec 3 b75 b76 abf
-cee cee 3 b75 b76 abf
-cef cef 4 b75 ab7 b61 b6b
-c68 c68 7 aa7 aa5 ab8 abf ab9 ba8 ac4
-c5f c5f 9 ab7 aa5 b77 cf4 b6f b68 ac4 b6b b75
-cf4 cf4 13 c91 c79 cf5 c8b c69 c6a c88 c89 c6c c76 c74 c90 c8c
-cf5 cf5 4 ab7 b61 b78 b64
-c60 c60 8 ab7 aa5 b77 cf6 b6f b68 ac4 b75
-cf6 cf6 5 c79 c6c c76 cf7 c8c
-cf7 cf7 4 ab7 b61 b78 b77
-c61 c61 7 ab7 aa5 b77 b6f b68 ac4 b75
-c62 c62 8 ab7 aa5 b77 cf8 b6f b68 ac4 b75
-cf8 cf8 4 ab7 b61 b78 b77
-c63 c63 26 aa7 ab7 aa5 b77 b33 cf9 bee bf0 c57 ba7 b6f b66 ab9 ac4 aba b68 c65 c66 c67 cfa ba6 c68 aae abb b9b b75
-cf9 cf9 22 c74 c8a c8b c8c c8d c8e c8f c91 c92 c87 cfb cfc c69 c6b c76 c6a c6c c90 c89 cfd c7a cfe
-cfb cfb 15 ab7 b61 b78 c97 b77 b6f aa5 b7e ab9 ac4 b81 c98 c99 cff cfd
-cff cff 1 b6f
-cfd cfd 7 ab7 b61 b78 b64 b6f b77 b75
-cfc cfc 9 ab7 b61 b78 b64 b6f b4b cfd b77 cff
-cfe cfe 5 ab7 b61 b78 b64 b6b
+bfg bfg 2 bak abf
+bfh bfh 4 bnn acg bcd bmj
+bfi bfi 4 abn bmh bcd boi
+bfj bfj 7 adj abn bmh bff bcd bpb aal
+bff bff 2 bmh bmb
+bfk bfk 2 bmh bmb
+bfl bfl 2 bmh bmb
+bfm bfm 3 bmh bmb bcd
+bfn bfn 3 bmh bmb bcd
+bfo bfo 1 bmh
+bfp bfp 3 abn bcd adi
+bfa bfa 3 abn bcd adi
+bfb bfb 4 abn bmh bog aai
+bfc bfc 2 bmh bmb
+bfd bfd 4 bnn acg bcd bmj
+cgg cgg 1 aal
+cgh cgh 17 bnn abn bmb aal cgi cgj cgk bmm cgl abp cgm ack cgn aej aae abb bnl
+cgi cgi 1 bmk
+cgj cgj 2 bmm bmk
+cgk cgk 3 abn bmh bma
+cgl cgl 7 bma bmm abp cgo bco aba bnl
+cgo cgo 5 aan bco bmm abp abb
+cgm cgm 5 aal abn bmm abk ack
+cgn cgn 0
+cgp cgp 3 aan bno bnn
+cga cga 0
+cgb cgb 5 aaf bda aan aca cgc
+cgc cgc 1 aaf
+cgd cgd 4 cgb bpk acb cge
+cge cge 1 cgb
+cgf cgf 0
+chg chg 4 chh chi chj bpd
+chh chh 27 abn blj abf bmm bmi bln bmh bjj aan aal bnb bjk acg bjl ada bne abp aej boe bah bpi bkg chk aae abb bpj chl
+chk chk 17 ack ade boh bfe chm bjh chn bed bmo bpg bph blb cho acm acb bnl aai
+chm chm 0
+chn chn 1 abn
+cho cho 0
+chl chl 11 ack aal aae abp aej bpb chp bdf beo bep bdb
+chp chp 1 aae
+chi chi 10 cgh bmf cha bnp bam bnn chb bnd bog bpb
+cha cha 0
+chb chb 1 chc
+chc chc 7 chd aae che abp ack chf acf
+chd chd 2 bnl abn
+che che 1 aan
+chf chf 8 abn bmh bnn bno bnd abp aae abb
+chj chj 2 cig cih
+cig cig 0
+cih cih 1 baj
+cii cii 1 bnn
+cij cij 0
+cik cik 0
+cil cil 1 bnn
+cim cim 1 baj
+cin cin 3 bnn bmh abf
+cio cio 1 bnn
+cip cip 4 abp chl aal ack
+cia cia 6 cib cic cid cie cif cjg
+cib cib 0
+cic cic 10 aal aae aan abp ack aaf aca aej abb cjh
+cjh cjh 2 boj cji
+cji cji 6 cjj aae cjk abp aak aej
+cjj cjj 0
+cjk cjk 0
+cid cid 21 cjl ban bjk bmf abo bnd bmj bkb acl bmm bnp bmh bjj aal cjm aan cjn cjo cjp cja chl
+cjl cjl 4 abn aal aan ack
+cjm cjm 2 aan aal
+cjn cjn 3 cjb cjc aal
+cjb cjb 2 aca aal
+cjc cjc 1 aca
+cjo cjo 24 acg abf chg bpo abg abl abk aed abp abe ack cjd bof bed cje bjg cjf bce acf abc ckg bpb boh ckh
+cjd cjd 1 boj
+cje cje 1 adp
+cjf cjf 2 abn aan
+ckg ckg 7 aal aae cki aan abp ack chl
+cki cki 1 aan
+ckh ckh 1 chg
+cjp cjp 7 abn ach aee bnj bpl bpp ckj
+ckj ckj 19 abn abf aan bmm aee aal bpl acg aej bce abp ack ckk aca bcc ckl adi bpb chl
+ckk ckk 1 aan
+ckl ckl 0
+cja cja 2 abp acg
+cie cie 19 bnn ckm aba beb ada abh cki bnf bog ckn boh cgm acm cko adl cgl bfe ckp cka
+ckm ckm 2 aal ckb
+ckb ckb 1 aal
+ckn ckn 1 ckc
+ckc ckc 3 aal bpb abp
+cko cko 19 abn aaf abp bmm aed abf che bnn ack aal aan ckd ach aae bpb cgm cke aca abb
+ckd ckd 4 abn ada bnb abp
+cke cke 0
+ckp ckp 7 ckf clg clh bdj aai abi bnl
+ckf ckf 9 abp bed aej aah aak cli ack abf bjj
+cli cli 0
+clg clg 0
+clh clh 17 bmm abn bnn bno bmh bmk bpp abf bmj abo bpl aal acg bpa bof bcc clj
+clj clj 2 aae clk
+clk clk 4 aan cll aba aca
+cll cll 2 aan aae
+cka cka 2 abn bmh
+cif cif 22 cig clm cln clo bce blj abf bmi blo bnb cgh cha bpe aco clp cla bmn clb bna clc cja cld
+clm clm 4 bnl abn bmh blb
+cln cln 1 bnn
+clo clo 4 bnn bce bnb bmb
+clp clp 2 abp aal
+cla cla 1 aan
+clb clb 6 cle clf cmg cmh cmi cmj
+cle cle 28 aan abn aal bnn bjj cmk bee bfg cln ban bmf bmm bjk abp ack aba acg bmo bph cml cmm cmn bam cmo aae abb bpb bnl
+cmk cmk 44 cmp cma cmb cmc cmd cme cmf cng cnh cni cnj cnk cnl cnm cnn cno cnp cna cnb cnc cnd cne cnf cog coh coi coj cok col com con coo cop coa cob coc cod coe cof cpg cph cpi cpj cpk
+cmp cmp 12 abn bmh bno bnn bnp abp cpl bmb acf bjm abf bnl
+cpl cpl 7 bfg bmf bjk abp ack boh abf
+cma cma 5 abn bmh bno bmk bln
+cmb cmb 9 abn bmh bno bnn bnp abp cpl bmb acf
+cmc cmc 6 abn bmh bno bmk bln cpm
+cpm cpm 2 bmh cgn
+cmd cmd 6 abn bmh bno bmk abp boh
+cme cme 13 abn bmh bno cpn bnn bmf aal bne abp ack boh cpo cpp
+cpn cpn 0
+cpo cpo 1 aai
+cpp cpp 4 abn bmf bmh abp
+cmf cmf 21 abn bmh bno cpn bnn bmf aal bne abp ack boh bmo cpa aca cpo aej ace aae abb aai cpp
+cpa cpa 3 abn bmf bmh
+cng cng 18 abn bmh bno cpn bnn bmf aal bne abp ack boh bmo cpb cpp cpo aej aae abb
+cpb cpb 3 abn bmh bmf
+cnh cnh 13 abn bmh bno bnn bmf abp ack boh bmo bpb cpc ace aai
+cpc cpc 0
+cni cni 7 abn bmh bno bnn bmf cpd cpo
+cpd cpd 5 abn abp bkg aae abb
+cnj cnj 16 abn bmh bno bmk bin aal cpn bmf abp ack bmo boh aag ace cpe adj
+cpe cpe 1 bmh
+cnk cnk 4 abn bmh bno bnn
+cnl cnl 9 abn bmh bno bmk aal cmp ack adj boh
+cnm cnm 4 abn bmh bno bmk
+cnn cnn 15 abn bmh bno bmk bin aal cpn abp ack bmo boh aag aba ace adj
+cno cno 4 abn bmh bno bmk
+cnp cnp 6 abn bmh bno bmk bln cgp
+cna cna 5 abn bmh bno bmk abp
+cnb cnb 5 abn bmh bno bmk aal
+cnc cnc 4 abn bmh bno bmk
+cnd cnd 5 abn bmh bno bmk abp
+cne cne 7 abn bmh bno bnn abp aai cpc
+cnf cnf 10 abn bmh bno bmk abp cpn aal ack boh cpo
+cog cog 15 abn bmh bno bmk bin aal cpn bmf abp ack bmo boh aag ace adj
+coh coh 6 abn bmh bno bmk abp bnl
+coi coi 6 abn bmh bno bmk cpf coj
+cpf cpf 4 abn bmh bno bmk
+coj coj 6 abn bmh bno bmk abp bnl
+cok cok 4 abn bmh bno bmk
+col col 5 abn bmh bno bmk cag
+cag cag 2 bnl abn
+com com 4 abn bmh bno bmk
+con con 6 abn bmh bno bmk bmf bnn
+coo coo 5 abn bmh bno bmk bmf
+cop cop 5 abn bmh bno bmk bmf
+coa coa 4 abn bmh bno bmk
+cob cob 5 abn bmh bno bmk bmf
+coc coc 6 abn bmh bno bnn bnp bjk
+cod cod 4 abn bmh bno bnn
+coe coe 4 abn bmh bno bmk
+cof cof 7 abn bmh bno bmk bnp aal bmf
+cpg cpg 5 abn bmh bno bmk bmm
+cph cph 4 abn bmh bno bmk
+cpi cpi 4 abn bmh bno bmk
+cpj cpj 4 abn bmh bno bnn
+cpk cpk 18 abn bmh bno cpn bnn bmf aal bne abp ack boh bmo cpb cpp cpo aej aae abb
+cml cml 1 bnn
+cmm cmm 4 cah cai caj cak
+cah cah 2 bmh bmb
+cai cai 2 bmh bmb
+caj caj 2 bmh bmb
+cak cak 2 bmh bmb
+cmn cmn 75 cal cam can cao cap caa cab cac cad cae caf cbg cbh cbi cbj cbk cbl cbm cbn cbo cbp cba cbb cbc cbd cbe cbf ccg cch cci ccj cck ccl ccm ccn cco ccp cca ccb ccc ccd cce ccf cdg cdh cdi cdj cdk cdl cdm cdn cdo cdp cda cdb cdc cdd cde cdf ceg ceh cei cej cek cel cem cen ceo cep cea ceb cec ced cee cef
+cal cal 4 bnl abn bmh blb
+cam cam 4 bnl abn bmh blb
+can can 4 bnl abn bmh blb
+cao cao 4 bnl abn bmh blb
+cap cap 4 bnl abn bmh blb
+caa caa 4 bnl abn bmh blb
+cab cab 4 bnl abn bmh blb
+cac cac 4 bnl abn bmh blb
+cad cad 4 bnl abn bmh blb
+cae cae 4 bnl abn bmh blb
+caf caf 4 bnl abn bmh blb
+cbg cbg 4 bnl abn bmh blb
+cbh cbh 4 bnl abn bmh blb
+cbi cbi 4 bnl abn bmh blb
+cbj cbj 4 bnl abn bmh blb
+cbk cbk 4 bnl abn bmh blb
+cbl cbl 4 bnl abn bmh blb
+cbm cbm 4 bnl abn bmh blb
+cbn cbn 4 bnl abn bmh blb
+cbo cbo 4 bnl abn bmh blb
+cbp cbp 4 bnl abn bmh blb
+cba cba 4 bnl abn bmh blb
+cbb cbb 4 bnl abn bmh blb
+cbc cbc 5 bnl abn bmh blb cfg
+cfg cfg 4 bnl abn bmh blb
+cbd cbd 3 bnl abn cfh
+cfh cfh 3 bnl abn cdg
+cdg cdg 2 bnl abn
+cbe cbe 2 bnl abn
+cbf cbf 2 bnl abn
+ccg ccg 3 bnl abn bmh
+cch cch 3 bnl abn bmh
+cci cci 3 bnl abn bmh
+ccj ccj 3 bnl abn bmh
+cck cck 3 bnl abn bmh
+ccl ccl 3 bnl abn bmh
+ccm ccm 3 bnl abn bmh
+ccn ccn 3 bnl abn bmh
+cco cco 3 bnl abn bmh
+ccp ccp 3 bnl abn bmh
+cca cca 3 bnl abn bmh
+ccb ccb 3 bnl abn bmh
+ccc ccc 3 bnl abn bmh
+ccd ccd 3 bnl abn bmh
+cce cce 3 bnl abn bmh
+ccf ccf 3 bnl abn bmh
+cdh cdh 2 bnl abn
+cdi cdi 8 bnl abn abp bmb cdn bmm bmh bnm
+cdn cdn 8 bnl abn abp bmb bmm bmh bnm bfg
+cdj cdj 2 bnl abn
+cdk cdk 2 bnl abn
+cdl cdl 2 bnl abn
+cdm cdm 3 bnl abn bmh
+cdo cdo 2 bnl abn
+cdp cdp 2 bnl abn
+cda cda 4 bnl abn bmh bmj
+cdb cdb 4 bnl abn bmh cfi
+cfi cfi 3 bnl abn bmh
+cdc cdc 3 bnl abn bmh
+cdd cdd 5 bnl abn bmh ack cfj
+cfj cfj 1 aae
+cde cde 4 bnl bnm ced abf
+ced ced 3 bnl bnm abf
+cdf cdf 4 bnl bnm ced abf
+ceg ceg 3 bnl bnm abf
+ceh ceh 3 bnl bnm abf
+cei cei 3 bnl bnm abf
+cej cej 3 bnl bnm abf
+cek cek 3 abn bmh bnm
+cel cel 3 abn bmh bnm
+cem cem 3 abn bmh bnm
+cen cen 3 abn bmh bnm
+ceo ceo 3 bnl bnm abf
+cep cep 3 bnl bnm abf
+cea cea 3 bnl bnm abf
+ceb ceb 3 bnl bnm abf
+cec cec 3 bnl bnm abf
+cee cee 3 bnl bnm abf
+cef cef 4 bnl abn bmh bmb
+cmo cmo 7 aan aal abo abf abp bao ack
+clf clf 9 abn aal bnn cfk bmf bmo ack bmb bnl
+cfk cfk 13 cph cnp cfl cob cmp cma coo cop cmc cnm cnk cpg coc
+cfl cfl 4 abn bmh bno bmk
+cmg cmg 8 abn aal bnn cfm bmf bmo ack bnl
+cfm cfm 5 cnp cmc cnm cfn coc
+cfn cfn 4 abn bmh bno bnn
+cmh cmh 7 abn aal bnn bmf bmo ack bnl
+cmi cmi 8 abn aal bnn cfo bmf bmo ack bnl
+cfo cfo 4 abn bmh bno bnn
+cmj cmj 26 aan abn aal bnn bjj cfp bee bfg cln ban bmf bmm abp ack aba bmo cml cmm cmn cfa bam cmo aae abb bpb bnl
+cfp cfp 22 cnk coa cob coc cod coe cof cph cpi con cfb cfc cmp cmb cnm cma cmc cpg cop cfd cna cfe
+cfb cfb 15 abn bmh bno cpn bnn bmf aal bne abp ack boh cpo cpp cff cfd
+cff cff 1 bmf
+cfd cfd 7 abn bmh bno bmk bmf bnn bnl
+cfc cfc 9 abn bmh bno bmk bmf bkb cfd bnn cff
+cfe cfe 5 abn bmh bno bmk bmb
 cfa cfa 0
-c5c c5c 9 ade bc8 d00 bee d01 d02 c99 c0b c0d
-d00 d00 1 ae1
-d01 d01 0
-d02 d02 3 aa7 aa5 ab9
-c5d c5d 1 c0b
-c30 c30 20 d03 d04 d05 d06 c9d ad9 c1e c18 d07 d08 d09 b4c d0a d0b c19 d0c d0d d0e ad3 b75
-d03 d03 31 b57 b5b d0f d10 d11 d12 d13 d14 d15 d16 d17 d18 d19 d1a d1b d1c d1d d1e d1f d20 d21 d22 d23 d24 d25 d26 d27 d28 d29 d2a d2b
-d0f d0f 4 d2c cc2 b61 b5b
-d2c d2c 4 b75 ab7 b61 b5b
-d10 d10 4 d2d cc1 b61 b5b
-d2d d2d 5 b75 ab7 b61 b5b b69
-d11 d11 4 d2e d2f b61 b5b
-d2e d2e 4 b75 ab7 b61 b5b
-d2f d2f 3 b75 ab7 b61
-d12 d12 5 cde d30 b61 b5b abf
-d30 d30 3 b75 ab7 b61
-d13 d13 5 ce9 cc7 d30 b61 b5b
-d14 d14 4 d31 d30 b61 b5b
-d31 d31 3 b75 b76 abf
-d15 d15 4 d32 d30 b61 b5b
-d32 d32 4 b75 b76 abf d31
-d16 d16 4 d30 d33 b61 b5b
-d33 d33 3 b75 b76 abf
-d17 d17 4 d30 cdf b61 b5b
-d18 d18 5 cb2 ccb cc2 b61 b5b
-d19 d19 5 d34 cca cc1 b61 b5b
-d34 d34 5 b75 ab7 b61 b5b b69
-d1a d1a 6 cbb d35 ccd d2f b61 b5b
-d35 d35 4 b75 ab7 b61 b5b
-d1b d1b 4 d36 cd4 b61 b5b
-d36 d36 5 b75 ab7 b61 b5b ca8
-d1c d1c 4 d37 ccb b61 b5b
-d37 d37 4 b75 ab7 b61 b5b
-d1d d1d 4 d38 cca b61 b5b
-d38 d38 5 b75 ab7 b61 b5b b69
-d1e d1e 4 d39 ccd b61 b5b
-d39 d39 4 b75 ab7 b61 b5b
-d1f d1f 4 d30 b6c b61 b5b
-d20 d20 4 d30 d3a b61 b5b
-d3a d3a 3 b75 b76 abf
-d21 d21 4 d30 d3b b61 b5b
-d3b d3b 3 b75 b76 abf
-d22 d22 5 d30 d3c ccf b61 b5b
-d3c d3c 4 b75 b76 abf b69
-d23 d23 4 d3d d3e b61 b5b
-d3d d3d 4 b75 ab7 b61 b5b
-d3e d3e 3 b75 ab7 b61
-d24 d24 4 cb9 cc4 b61 b5b
-d25 d25 5 d3f cba ccc b61 b5b
-d3f d3f 4 b75 ab7 b61 b5b
-d26 d26 5 d30 cc8 ce8 b61 b5b
-d27 d27 4 d30 cea b61 b5b
-d28 d28 4 d30 ce1 b61 b5b
-d29 d29 4 d40 cc5 b61 b5b
-d40 d40 3 ab7 b61 b6b
-d2a d2a 4 d30 ce0 b61 b5b
-d2b d2b 5 b63 d41 d42 b61 b5b
-d41 d41 6 b75 ab7 b61 b5b b63 b69
-d42 d42 3 b75 ab7 b61
-d04 d04 4 ab4 ab3 ab7 aa5
-d05 d05 4 ab4 ab2 ab7 aa5
-d06 d06 3 aa7 ac4 c4f
-d07 d07 14 bee d43 ca2 ca1 ca4 ca3 b77 aa5 ab9 acf ad0 d44 ad2 b75
-d43 d43 2 b61 b6b
-d44 d44 2 b61 b6b
-d08 d08 6 aa5 c46 aae ac4 d45 ab9
-d45 d45 2 aa7 aa4
-d09 d09 4 b94 d46 c32 ba5
-d46 d46 0
-d0a d0a 6 c34 aa5 ab7 b77 ac4 abc
-d0b d0b 7 ab7 aa5 abf aa7 ab9 c68 c15
-d0c d0c 0
-d0d d0d 2 c68 aba
-d0e d0e 0
-d47 d47 2 ac4 c32
-d48 d48 0
+clc clc 9 ade bco dgg bee dgh dgi cpp cgb cgd
+dgg dgg 1 aeh
+dgh dgh 0
+dgi dgi 3 aan aal abp
+cld cld 1 cgb
+cjg cjg 20 dgj dgk dgl dgm cpd adp che cho dgn dgo dgp bkc dga dgb chp dgc dgd dge adj bnl
+dgj dgj 31 bln blb dgf dhg dhh dhi dhj dhk dhl dhm dhn dho dhp dha dhb dhc dhd dhe dhf dig dih dii dij dik dil dim din dio dip dia dib
+dgf dgf 4 dic cci bmh blb
+dic dic 4 bnl abn bmh blb
+dhg dhg 4 did cch bmh blb
+did did 5 bnl abn bmh blb bmp
+dhh dhh 4 die dif bmh blb
+die die 4 bnl abn bmh blb
+dif dif 3 bnl abn bmh
+dhi dhi 5 cde djg bmh blb abf
+djg djg 3 bnl abn bmh
+dhj dhj 5 cep ccn djg bmh blb
+dhk dhk 4 djh djg bmh blb
+djh djh 3 bnl bnm abf
+dhl dhl 4 dji djg bmh blb
+dji dji 4 bnl bnm abf djh
+dhm dhm 4 djg djj bmh blb
+djj djj 3 bnl bnm abf
+dhn dhn 4 djg cdf bmh blb
+dho dho 5 cbi ccb cci bmh blb
+dhp dhp 5 djk cca cch bmh blb
+djk djk 5 bnl abn bmh blb bmp
+dha dha 6 cbb djl ccd dif bmh blb
+djl djl 4 bnl abn bmh blb
+dhb dhb 4 djm cdk bmh blb
+djm djm 5 bnl abn bmh blb cao
+dhc dhc 4 djn ccb bmh blb
+djn djn 4 bnl abn bmh blb
+dhd dhd 4 djo cca bmh blb
+djo djo 5 bnl abn bmh blb bmp
+dhe dhe 4 djp ccd bmh blb
+djp djp 4 bnl abn bmh blb
+dhf dhf 4 djg bmc bmh blb
+dig dig 4 djg dja bmh blb
+dja dja 3 bnl bnm abf
+dih dih 4 djg djb bmh blb
+djb djb 3 bnl bnm abf
+dii dii 5 djg djc ccf bmh blb
+djc djc 4 bnl bnm abf bmp
+dij dij 4 djd dje bmh blb
+djd djd 4 bnl abn bmh blb
+dje dje 3 bnl abn bmh
+dik dik 4 cbp cck bmh blb
+dil dil 5 djf cba ccc bmh blb
+djf djf 4 bnl abn bmh blb
+dim dim 5 djg cco ceo bmh blb
+din din 4 djg cea bmh blb
+dio dio 4 djg ceh bmh blb
+dip dip 4 dkg ccl bmh blb
+dkg dkg 3 abn bmh bmb
+dia dia 4 djg ceg bmh blb
+dib dib 5 bmj dkh dki bmh blb
+dkh dkh 6 bnl abn bmh blb bmj bmp
+dki dki 3 bnl abn bmh
+dgk dgk 4 abk abj abn aal
+dgl dgl 4 abk abi abn aal
+dgm dgm 3 aan ack ckf
+dgn dgn 14 bee dkj cai cah cak caj bnn aal abp acf adg dkk adi bnl
+dkj dkj 2 bmh bmb
+dkk dkk 2 bmh bmb
+dgo dgo 6 aal ckm aae ack dkl abp
+dkl dkl 2 aan aak
+dgp dgp 4 bpk dkm cji bal
+dkm dkm 0
+dga dga 6 cjk aal abn bnn ack abc
+dgb dgb 7 abn aal abf aan abp cmo chl
+dgc dgc 0
+dgd dgd 2 cmo aba
+dge dge 0
+dkn dkn 2 ack cji
+dko dko 0

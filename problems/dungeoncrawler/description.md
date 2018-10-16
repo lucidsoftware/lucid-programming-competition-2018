@@ -4,7 +4,9 @@ You are an adventurer and a local NPC will pay you handsomely for a list of valu
 
 > Note: A dungeon may require treasures that don't exist or are unobtainable
 
-The NPC has told many adventurers about these treasures, so time is of the essence. You decide that the first treasure you should get will be the treasure which requires completing the fewest dungeons. The next treasure will then be the next fewest (remembering that you may already have some treasures at this point.) *If there are two or more equally good choices for the next treasure, choose the alphabetically least one.*
+> Note: All dungeon names and treasure names only contain lowercase `a-z`.
+
+The NPC has told many adventurers about these treasures, so time is of the essence. In order to enter a dungeon, you must have the required treasures. When deciding which treasures to collect first you choose the one that requires you to visit the smallest number of dungeons. If there are two or more equally good choices, visit the dungeons in alphabetical order.
 
 > Note: You may not have to complete every dungeon to collect all the requested treasures
 
@@ -20,7 +22,7 @@ The next **N** lines describe the dungeons in the following format:
 
 
 ## Output
-Output the shortest space-separated list of dungeons you’d have to complete in order to obtain the treasures. *If there are two or more dungeons you can complete in any order, go through these dungeons in alphabetical order.* If it is not possible to obtain **all** the requested treasures, output: `Not Possible`
+Output the shortest space-separated list of dungeons you’d have to complete in order to obtain the treasures. If it is not possible to obtain **all** the requested treasures, output: `not possible`
 
 ## Examples
 <table>
@@ -32,20 +34,20 @@ Output the shortest space-separated list of dungeons you’d have to complete in
         <td>
             <pre>
 5
-Diamond Ruby
-DarkerTombs BlueKey 1 BrownKey
-LonelyMazes BrownKey 0
-GraniteLair Diamond 2 BlueKey RedKey
-DreadDelves Ruby 1 BrownKey
-BoilingPits RedKey 1 BrownKey
+diamond ruby
+darkertombs bluekey 1 brownkey
+lonelymazes brownkey 0
+granitelair diamond 2 bluekey redkey
+dreaddelves ruby 1 brownkey
+boilingpits redkey 1 brownkey
 </pre>
         </td>
         <td>
             <pre>
 2
-Apple
-A Orange 1 Apple
-B Apple 1 Orange
+apple
+a orange 1 apple
+b apple 1 orange
 </pre>
         </td>
     </tr>
@@ -55,10 +57,10 @@ B Apple 1 Orange
     </tr>
     <tr>
         <td>
-            <pre>LonelyMazes DreadDelves BoilingPits DarkerTombs GraniteLair</pre>
+            <pre>lonelymazes dreaddelves boilingpits darkertombs granitelair</pre>
         </td>
         <td>
-            <pre>Not Possible</pre>
+            <pre>not possible</pre>
         </td>
     </tr>
     <tr>
@@ -66,7 +68,7 @@ B Apple 1 Orange
         <th>Explanation 2</th>
     </tr>
     <tr>
-        <td><pre>It is faster to get the Ruby than the Diamond, so get that first. <br>When obtaining the Diamond, remember that we already have the BrownKey. <br>We need to get the BlueKey and RedKey in any order, so we go visit the BoilingPits first. <br>(because BoilingPits is alphabetically less than DarkerTombs)</pre></td>
-        <td><pre>It is not possible to obtain the Apple, because dungeons A and B form a cycle in their dependencies.</pre></td>
+        <td>It is faster to get the `ruby` than the `diamond`, so get the `ruby` first. Next when obtaining the `diamond`, remember that we already have the `brownkey`. We need to get the `bluekey` and `redkey` neither of which requires visiting any other dungeons first, so we go visit the boilingpits first. (because boilingpits is alphabetically less than darkertombs)</td>
+        <td>It is not possible to obtain the `apple`, because dungeons `a` and `b` form a cycle in their dependencies.</td>
     </tr>
 </table>

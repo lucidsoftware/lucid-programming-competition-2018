@@ -6,6 +6,8 @@ process.stdin.on('end', () => {
   console.log(solveProblem(data));
 });
 
+const add = (a, b) => a + b;
+
 /**
  * @param {string} data
  */
@@ -13,31 +15,36 @@ function solveProblem(data) {
   try {
     /*********** Process Input ***********/
     const [numDungeons, targetRaw, ...dungeonsRaw] = data.split('\n');
-    const targets = new Set(targetRaw.split(/\s+/));
+    const targets = targetRaw.split(' ');
+
+    // Note: I'm validating input with regex, you should just split on spaces.
     const dungeons = dungeonsRaw.map(r => {
       const [, name, reward, count, treasuresRaw] =
-          r.match(/^([^\s]+)\s+([^\s]+)\s+(\d+)\s*(.*)$/)
+          r.match(/^([a-z]+) ([a-z]+) (\d+)\s?([a-z ]*)$/)
               .concat(/* Make the regex result a real array */);
-      const treasures = treasuresRaw.length ? treasuresRaw.split(/\s+/) : [];
+      const treasures = treasuresRaw.length ? treasuresRaw.split(' ') : [];
 
       // Validate input
       if (count != treasures.length) {
-        throw new Error('Bad Input');
+        throw new Error(`Bad Input\n Got ${treasures.length} but expected ${
+            count} treasures for ${name}`);
       }
       return {
-        name, reward, treasures, height: 0
+        name, reward, treasures, deps: undefined
       }
     });
 
     // Validate input
     if (numDungeons != dungeons.length) {
-      throw new Error('Bad Input');
+      throw new Error(`Bad Input\n Got ${dungeons.length} but expected ${
+          numDungeons} dungeons`);
     }
     const seenDungeonNames = new Set();
     const seenTreasureNames = new Set();
     dungeons.forEach(d => {
       if (seenDungeonNames.has(d.name) || seenTreasureNames.has(d.reward)) {
-        throw new Error('Bad Input');
+        throw new Error(`Bad Input\n Duplicate dungeon or treasure name, ${
+            d.name} ${d.reward}`);
       }
       seenDungeonNames.add(d.name);
       seenTreasureNames.add(d.reward);
@@ -62,101 +69,79 @@ function solveProblem(data) {
     }
 
 
+
     /*********** Solution ****************/
-    let plan = [];  // The list of dungeons we're going to visit
-    const treasureSack = new Set();  // The treasures we've gotten
-
-    function clearHeights() {
-      dungeons.forEach(d => d.height = 0)
-    }
-
     /**
      *
      * @param {((typeof dungeons[0])[]} stack
      * @param {typeof dungeons[0]} d
      */
-    function getHeight(stack, d) {
+    function getDeps(stack, d) {
+      if (d.deps) {
+        return d.deps;
+      }
       if (stack.indexOf(d) >= 0) {
         throw new Error(
             `Cycle ${stack.map(d => d.reward).join('->')}->${d.reward}`);
       }
       stack.push(d);
-      if (d.height == 0) {
-        d.height = 1 +
-            Math.max(
-                0,
-                ...(d.treasures.filter(t => !treasureSack.has(t))
-                        .map(getDungeonOrThrow)
-                        .map(getHeight.bind(this, stack))));
-      }
+
+
+      d.deps = new Set([d]);
+      d.treasures.map(getDungeonOrThrow)
+          .map(getDeps.bind(this, stack))
+          .forEach(deps => {
+            deps.forEach(dep => {
+              d.deps.add(dep);
+            });
+          });
+
+
       stack.pop(d);
-      return d.height;
+      return d.deps;
     }
 
-
-    /**
-     * @param {string} treasure
-     * @param {(typeof dungeons[0])[]} visited
-     */
-    function getDeps(treasure, visited) {
-      const d = getDungeonOrThrow(treasure);
-      if (visited.indexOf(d) >= 0) {
-        return visited;
-      }
-
-      d.treasures
-          // Remove already obtained treasures from the list
-          .filter(t => !treasureSack.has(t))
-          // Map the treasures to the dungeons that reward them
-          .map(getDungeonOrThrow)
-          // Sort according to the rules
-          .sort((d1, d2) => d1.name.localeCompare(d2.name))
-          // Recursivly get their deps
-          .forEach(d => getDeps(d.reward, visited));
-
-      visited.push(d);
-      return visited;
-    }
+    // Calculate starting dependencies for each dungeon
+    targets.map(getDungeonOrThrow).map(getDeps.bind(this, []));
 
 
+
+    const plan = [];  // The list of dungeons we're going to visit
 
     /**
      *
-     * @param {typeof dungeons[0]} d
+     * @param {typeof dungeons[0]} dungeon
      */
-    function visitDungeon(d) {
-      plan.push(d.name);
-      treasureSack.add(d.reward);
-      targets.delete(d.reward);
+    function visitDungeon(dungeon) {
+      plan.push(dungeon.name);
+      dungeons.filter(d => d.deps).forEach(d => {
+        d.deps.delete(dungeon);
+      });
     }
 
-    // We put this in a while loop,
-    // getting the first treasure may affect the number of
-    // dependencies required for the rest of the treasures
-    while (targets.size > 0) {
-      clearHeights();
-
-      getDeps(
-        [...targets]
-          // V8's sort is stable afaik so we sort alphabetically first
-          .sort()
-          .map(getDungeonOrThrow)
-          .map(d => {
-            getHeight([], d)
-            return d
-          })
-          // Go for the treasure with least dependencies first
-          .sort((d1, d2) => d1.height - d2.height)
-          // Get the first one
-          .shift().reward, []
-        )
-        .forEach(visitDungeon);
+    function getTreasures(treasures) {
+      while (treasures.size > 0) {
+        const nextDungeon = [...treasures]
+                                .map(getDungeonOrThrow)
+                                // Sort according to the rules
+                                .sort(
+                                    (d1, d2) => (d1.deps.size - d2.deps.size) ||
+                                        d1.name.localeCompare(d2.name))
+                                // Get the first one
+                                .shift();
+        getTreasures(new Set([...nextDungeon.deps]
+                                 .filter(d => d != nextDungeon)
+                                 .map(d => d.reward)));
+        treasures.delete(nextDungeon.reward);
+        visitDungeon(nextDungeon);
+      }
     }
+    getTreasures(new Set(targets));
 
     return plan.join(' ');
   } catch (e) {
-    // Uncomment for more information why it's Not Possible
+    // Uncomment for more information why it's not possible
     // console.log(e);
-    return 'Not Possible';
+    return 'not possible';
   }
 }

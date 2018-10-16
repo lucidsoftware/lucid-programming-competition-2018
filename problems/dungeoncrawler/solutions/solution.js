@@ -55,7 +55,7 @@ function solve(input) {
         getItems(requiredItems);
         console.log(path.join(' '));
     } catch(e) {
-        console.log('Not Possible');
+        console.log('not possible');
     }
 }
 
