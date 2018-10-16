@@ -49,9 +49,9 @@ Then next `N` lines will each contain two integers `1 <= A <= 1000` (the number 
     </td>
     <td>
 <pre>
-0.000000
-1.000000
-0.503291
+0.0
+1.0
+0.5032907
 </pre>
     </td>
   </tr>
