@@ -116,8 +116,8 @@ narnia gold 1 unicorn
         </td>
     </tr>
     <tr>
-        <th>Explanation 1</th>
-        <th>Explanation 2</th>
+        <th>Explanation 3</th>
+        <th>Explanation 4</th>
     </tr>
     <tr>
         <td>We're no strangers to love. You know the rules and so do I. We believe you can solve this problem.</td>
