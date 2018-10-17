@@ -64,8 +64,8 @@ deploy: deploy-scoreboard deploy-queue
 
 .PHONY: deploy-scoreboard
 deploy-scoreboard: scoreboard.zip
-	aws-staging --region us-west-1 lambda update-function-code --function-name competition-2018-leaderboard --zip-file fileb://$< --publish
+	aws-staging --region us-west-1 lambda update-function-code --function-name competition-2017-leaderboard --zip-file fileb://$< --publish
 
 .PHONY: deploy-queue
 deploy-queue: scoreboard.zip
-	aws-staging --region us-west-1 lambda update-function-code --function-name competition-2018-queue --zip-file fileb://$< --publish
+	aws-staging --region us-west-1 lambda update-function-code --function-name competition-2017-queue --zip-file fileb://$< --publish
