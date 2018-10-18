@@ -90,10 +90,32 @@ function toTimeStr(time) {
 }
 
 let problems = [
-   // TODO 
+   'art-1',
+   'dungeon-crawler',
+   'mean-older-brother',
+   'to-catch-a-cheat',
+   'rotating-caesar-cipher',
+   'scramble-squares',
+   'trade-market',
+   'risky-business',
+   'honest-rectangle',
+   'quick-chats',
 ];
 
 const CONTEST_NAME= 'lucid-2018';
+let problem_names = {
+   'art-1': 'Art',
+   'dungeon-crawler': 'Dungeon Crawler',
+   'mean-older-brother': 'Mean Older Brother',
+   'to-catch-a-cheat': 'To Catch a Cheat',
+   'rotating-caesar-cipher': 'Rotating Caesar Cipher',
+   'scramble-squares': 'Scramble Squares',
+   'trade-market': 'Trade Market',
+   'risky-business': 'Risky Business',
+   'honest-rectangle': 'Honest Rectangle',
+   'quick-chats': 'Quick Chats',
+};
+
 
 const LIMIT = 100;
 const BASE_URL = `https://www.hackerrank.com/contests/${CONTEST_NAME}/challenges/`;
@@ -215,7 +237,7 @@ export async function leaderboard(schoolFilter?:string) {
     <h1><a class="title" href="?">Lucid Programming Competition Leaderboard</a></h1>`
     let table = `<table class="bordered striped centered"><tbody>\n<thead><tr><th>Rank</th><th>Name</th><th>Location</th>`;
     problems.forEach(p => {
-        table += `<th><a href="${BASE_URL+p}">${p}</a></th>`;
+        table += `<th><a href="${BASE_URL+p}">${problem_names[p]}</a></th>`;
     });
     table += '<th>Score</th><th>Time</th></tr></thead>';
 
