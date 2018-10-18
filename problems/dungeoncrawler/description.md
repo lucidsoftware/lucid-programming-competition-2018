@@ -1,6 +1,6 @@
 # Dungeon Crawler
 
-You are an adventurer and a local NPC will pay you handsomely for a list of valuable treasures. There are many dungeons, each dungeon will reward you with one treasure. No two dungeons have the same name or reward you with the same treasure. In order to unlock a dungeon to enter it, you will need to hold **zero or more** specific treasures (which you obtain from other dungeons).
+You are an adventurer and a local NPC (Non Player Character, a character controlled by the computer) will pay you handsomely for a list of valuable treasures. There are many dungeons, each dungeon will reward you with one treasure. No two dungeons have the same name or reward you with the same treasure. In order to unlock a dungeon to enter it, you will need to hold **zero or more** specific treasures (which you obtain from other dungeons).
 
 > Note: A dungeon may require treasures that don't exist or are unobtainable
 
