@@ -22,7 +22,8 @@ m = min(n*(n-1), int(input()))
 nodes = [chr(x) for x in range(ord('A'), ord('A') + n)]
 
 print(n)
-print(' '.join(nodes))
+for i in range(n):
+	print('{0} {1}'.format(nodes[i], random.randint(0, MAX_TIME-1)))
 
 print(m)
 picked_pairs = set()
@@ -32,8 +33,7 @@ for i in range(m):
 		x, y = pickTwo(nodes)
 	picked_pairs.add((x, y))
 	c = random.randint(0, MAX_COST-1)
-	t = random.randint(0, MAX_TIME-1)
-	edge = '{0} {1} {2} {3}'.format(x, y, c, t)
+	edge = '{0} {1} {2}'.format(x, y, c)
 	print(edge)
 
 source, dest = pickTwo(nodes)

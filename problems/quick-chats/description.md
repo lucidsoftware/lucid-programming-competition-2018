@@ -4,27 +4,25 @@ Generic Game Studios Inc. is a game company with an open floor plan. It's great 
 
 ## Notes
 
+- The distance from one employee's desk to their own desk is always zero, and the time they talk to themselves is zero (no one practices rubber duck debugging here).
+- Each employee has their own level of chattiness, and will talk to any other passing employee for the same amount of time.
 - Because of the strange floorplan, it doesn't necessarily take the same amount of time to walk from  **A**'s  desk to  **B**'s  desk as it does from  **B**'s  desk to  **A**'s.
-- In addition, the amount of time that  **B**  will talk to  **A**  as  **A**  passes by is not necessarily the same as how long  **A**  will talk to  **B**  as  **B**  walks by - some people are more chatty when they're at their desk.
-- The distance from one employee's desk to their own desk is always zero, and the time they talk to themselves is zero (no one practices rubber duck debugging here)
+- In order to "arrive" at a desk, the conversation between  **A**  and  **B**  must conclude. Employees at GGS are very polite.
 
 ## Input
 
-The first line contains a single integer  **N**, the number of employees on the floor. The next line contains  **N**  strings, one for the first name of each employee, separated by a single space. The following line contains a single integer  **M**, the number of pairs of desks with a path between them. The next  **M**  lines are of the format  **n1  n2  d  t**, where:
+The first line contains a single integer  **N**, the number of employees on the floor. The following  **N** lines contain a string and an integer  **t**, separated by a single space, which represent the first name of the employee and how long they talk to passing coworkers, respectively.
 
-- **n1** is the name of an employee
-- **n2** is the name of another employee
-- **d** is an integer representing the amount of time it takes to walk from  **n1**'s  desk to  **n2**'s  desk
-- **t** is an integer representing the amount of time that  **n2**  will talk to  **n1**  as  **n1**  passes by  **n2** 's desk
+The next line contains a single integer  **M**, the number of pairs of desks that have a path between them. The following  **M**  lines contain a pair of names and an integer  **d**  the amount of time it takes to walk between them, separated by single spaces.
 
 The last line contains two strings,  **S**  and  **D**, the names of two employees.
 
 ## Contraints
 
 - 1 <= **N** <= 100
+- 1 <= **t** <= 100
 - 1 <= **M** <= 10000
 - 1 <= **d** <= 100
-- 1 <= **t** <= 100
 
 ## Output
 
@@ -42,9 +40,9 @@ Print the minimum amount of time it will take for  **S**  to reach  **D**'s  des
         <td>
             <pre>
 1
-Solo
+Solo 10
 1
-Solo Solo 1 5
+Solo Solo 1
 Solo Solo
             </pre>
         </td>

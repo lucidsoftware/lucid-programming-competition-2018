@@ -6,13 +6,15 @@ object Dijkstra {
   type Path[Key] = (Int, List[Key])
  
   def Dijkstra[Key](lookup: Map[Key, List[(Int, Key)]], fringe: List[Path[Key]], dest: Key, visited: Set[Key]): Path[Key] = fringe match {
-    case (dist, path) :: fringe_rest => path match {case key :: path_rest =>
-      if (key == dest) (dist, path.reverse)
-      else {
-        val paths = lookup(key).flatMap {case (d, key) => if (!visited.contains(key)) List((dist + d, key :: path)) else Nil}
-        val sorted_fringe = (paths ++ fringe_rest).sortWith {case ((d1, _), (d2, _)) => d1 < d2}
-        Dijkstra(lookup, sorted_fringe, dest, visited + key)
-      }
+    case (dist, path) :: fringe_rest => path match {
+      case key :: path_rest =>
+        if (key == dest) (dist, path.reverse)
+        else {
+          val paths = lookup(key).flatMap {case (d, key) => if (!visited.contains(key)) List((dist + d, key :: path)) else Nil}
+          val sorted_fringe = (paths ++ fringe_rest).sortWith {case ((d1, _), (d2, _)) => d1 < d2}
+          Dijkstra(lookup, sorted_fringe, dest, visited + key)
+        }
+      case Nil => throw new Exception()
     }
     case Nil => (0, List())
   }
@@ -24,9 +26,16 @@ object Main {
 
     val input = new Scanner(System.in)
     val n = input.nextLine().toInt
-    val names = input.nextLine().split(' ')
-    val m = input.nextLine().toInt
+    val names = scala.collection.mutable.ListBuffer[String]()
+    val times = scala.collection.mutable.Map[String, Int]()
+    (0 to n-1) foreach (i => {
+      val line = input.nextLine().split(' ')
+      val name = line(0)
+      names += name
+      times(name) = line(1).toInt
+    })
 
+    val m = input.nextLine().toInt
     val lookup = scala.collection.mutable.Map[String, List[(Int, String)]]()
     (0 to n-1) foreach (i => {
       val adj: List[(Int, String)] = names.map { n =>
@@ -42,9 +51,8 @@ object Main {
       val s = line(0)
       val d = line(1)
       val c = line(2).toInt
-      val t = line(3).toInt
       val adj: List[(Int, String)] = lookup.get(s).get
-      val newAdj = adj :+ (c + t, d)
+      val newAdj = adj :+ (c + times(d), d)
       lookup.put(s, newAdj)
     })
 

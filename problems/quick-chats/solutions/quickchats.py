@@ -6,16 +6,22 @@ SENTINEL = 1E9
 
 if __name__ == '__main__':
 	n = int(input())
-	names = input().split()
-	m = int(input())
+	names = []
+	times = {}
 
+	for _ in range(n):
+		name, time = input().split()
+		names.append(name)
+		times[name] = int(time)
+
+	m = int(input())
 	graph = {}
 	for n in names:
 		graph[n] = {}
 
 	for _ in range(m):
-		[s, d, c, t] = input().split()
-		graph[s][d] = int(c) + int(t) if s != d else 0
+		[s, d, c] = input().split()
+		graph[s][d] = int(c) + times[d] if s != d else 0
 
 	[source, dest] = input().split()
 

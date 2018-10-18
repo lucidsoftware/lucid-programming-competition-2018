@@ -1,14 +1,19 @@
 5
-A B C D E
+A 56
+B 94
+C 37
+D 6
+E 28
 10
-B E 47 50
-C E 46 83
-B C 41 63
-D A 22 68
-E D 20 11
-B D 48 8
-C D 15 12
-D B 3 63
-C A 11 35
-D E 28 20
-B C
+E C 19
+A D 39
+B C 37
+A E 46
+D E 36
+E D 31
+C E 24
+D A 43
+B A 39
+E B 21
+B A
+

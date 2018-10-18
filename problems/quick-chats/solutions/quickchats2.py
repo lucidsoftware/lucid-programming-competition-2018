@@ -4,7 +4,14 @@ SENTINEL = 1E9
 
 if __name__ == '__main__':
 	n = int(input())
-	names = input().split()
+	names = []
+	times = {}
+
+	for _ in range(n):
+		name, time = input().split()
+		names.append(name)
+		times[name] = int(time)
+
 	m = int(input())
 
 	graph = [[SENTINEL] * n for _ in range(n)]
@@ -12,9 +19,9 @@ if __name__ == '__main__':
 		graph[i][i] = 0
 
 	for _ in range(m):
-		[s, d, c, t] = input().split()
+		[s, d, c] = input().split()
 		i, j = [names.index(s), names.index(d)]
-		graph[names.index(s)][names.index(d)] = int(c) + int(t) if s != d else 0
+		graph[names.index(s)][names.index(d)] = int(c) + times[d] if s != d else 0
 
 	[source, dest] = input().split()
 
