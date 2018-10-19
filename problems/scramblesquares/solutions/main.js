@@ -40,16 +40,15 @@ function processData(input) {
     }
 
     const getNextSpace = (s) => {
-        out:
-        for (var y = 0; y < h; y++) {
-            for (var x = 0; x < w; x++) {
+        for (let y = 0; y < h; y++) {
+            for (let x = 0; x < w; x++) {
                 if (!s[y][x]) {
-                    break out;
+                    return [x,y];
                 }
             }
         }
 
-        return [x,y]
+        throw new Error('Oops');
     }
 
     /**
@@ -88,7 +87,7 @@ function processData(input) {
 
     // Build empty board
     const solution = [];
-    for (var y = 0; y < h; y++) {
+    for (let y = 0; y < h; y++) {
         solution.push([]);
     }
 
