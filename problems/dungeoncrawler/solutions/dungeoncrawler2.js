@@ -14,32 +14,32 @@ function solve(input) {
 
     const path = [];
     const collectedItems = new Set();
-    let memoizedSets = new Map();
+    let transitiveDeps = new Map();
 
-    function getCount(item) {
-        if(memoizedSets.has(item)) {
-            return memoizedSets.get(item);
+    function getTransitiveDeps(item) {
+        if(transitiveDeps.has(item)) {
+            return transitiveDeps.get(item);
         }
         const result = new Set([item]);
         const deps = dependencies.get(item);
-        sets = deps.forEach(i => {
-            getCount(i).forEach(i => result.add(i));
+        deps.forEach(i => {
+            getTransitiveDeps(i).forEach(i => result.add(i));
         });
-        memoizedSets.set(item, result);
+        transitiveDeps.set(item, result);
         return result;
     }
 
     function collectItem(item) {
         path.push(itemDungeon.get(item));
         collectedItems.add(item);
-        memoizedSets.forEach(items => items.delete(item));
+        transitiveDeps.forEach(items => items.delete(item));
     }
 
     function getItems(items) {
         while(!items.every(i => collectedItems.has(i))) {
             const sorted = items.filter(i => !collectedItems.has(i)).map(item => {
                 return {
-                    numToVisit: memoizedSets.get(item).size,
+                    numToVisit: transitiveDeps.get(item).size,
                     item,
                 };
             }).sort((a,b) => {
@@ -51,7 +51,7 @@ function solve(input) {
     }
 
     try {
-        requiredItems.forEach(getCount);
+        requiredItems.forEach(getTransitiveDeps);
         getItems(requiredItems);
         console.log(path.join(' '));
     } catch(e) {
