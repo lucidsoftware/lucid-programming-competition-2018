@@ -10,7 +10,9 @@ Passing through the starting position in the middle of a sequence does not count
 
 ## Input
 
-The input is given as one line of the characters 'F', 'R', and 'L' indicating a sequence of instructions that little brother must repeatedly do. 'F' indicates that little brother should move one step Forward. 'R' indicates that little brother should rotate 90 degrees to the Right. 'L' indicates that little brother should rotate 90 degrees to the Left.
+The input is given as one line of the characters 'F', 'R', and 'L' indicating a sequence of instructions of length N that little brother must repeatedly do. 'F' indicates that little brother should move one step Forward. 'R' indicates that little brother should rotate 90 degrees to the Right. 'L' indicates that little brother should rotate 90 degrees to the Left.
+
+`1 <= N <= 5,000,000`
 
 ## Output
 
