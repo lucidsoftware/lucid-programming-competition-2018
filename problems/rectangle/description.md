@@ -1,20 +1,20 @@
 # Rectangle
 
-Taylor and Avery are secretive people. They're honest, but not <i>too</i> honest. They don't say more than they have to.
+Pat and Avery are secretive people. They're honest, but not <i>too</i> honest. They don't say more than they have to.
 
-When they are together, their friend Kendall says she is thinking of a rectangle with integer dimensions `w` and `h`, such that `L ≤ w ≤ h ≤ U`. She says she will give Taylor the perimeter and Avery the area. She then privately gives the perimeter to Taylor and the area to Avery.
+When they are together, their friend Kendall says she is thinking of a rectangle with integer dimensions `w` and `h`, such that `L ≤ w ≤ h ≤ U`. She says she will give Pat the perimeter and Avery the area. She then privately gives the perimeter to Pat and the area to Avery.
 
 They then have the following honest conversation.
 
 ><b>Avery:</b> I don't know what `w` and `h` are.
 <br>
-<b>Taylor:</b> I knew that.
+><b>Pat:</b> I knew that.
 <br>
-<b>Avery:</b> Now I know what they are.
+><b>Avery:</b> Now I know what they are.
 <br>
-<b>Taylor:</b> I now know too.
+><b>Pat:</b> I now know too.
 
-In additional to being honest, both Taylor and Avery are very smart. They use all the information they have available.
+In additional to being honest, both Pat and Avery are very smart. They use all the information they have available.
 
 What are the possible values for `w` and `h`?
 
