@@ -14,7 +14,7 @@ To help with your strategizing, you decide to write a program to determine the m
 
 ## Input
 
-The input is given as one line of _N_ space-separated numbers, each representing the `exchange rate` for one turn.
+The input is given as one line of `N` space-separated numbers, each representing the `exchange rate` for one turn.
 
 `2 <= N <= 100,000`
 
