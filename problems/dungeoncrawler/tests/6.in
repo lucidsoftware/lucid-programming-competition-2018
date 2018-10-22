@@ -1,0 +1,16 @@
+14
+depth breadth
+da deptha 0
+db depthb 1 deptha
+dc depthc 1 depthb
+dd depthd 1 depthc
+dfinal depth 1 depthd
+ba breadtha 0
+bb breadthb 0
+bc breadthc 0
+bd breadthd 0
+be breadthe 0
+bf breadthf 0
+bg breadthg 0
+bh breadthh 0
+bfinal breadth 7 breadtha breadthb breadthc breadthd breadthe breadthf breadthg

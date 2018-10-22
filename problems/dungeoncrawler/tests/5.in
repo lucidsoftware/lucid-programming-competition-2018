@@ -1,0 +1,683 @@
+681
+bpn cia dgj abn
+aag aag 0
+aah aah 0
+aai aai 1 aag
+aaj aaj 0
+aak aak 1 aal
+aal aal 3 aaj aam aan
+aam aam 0
+aan aan 1 aao
+aao aao 0
+aap aap 0
+aaa aaa 1 aal
+aab aab 0
+aac aac 0
+aad aad 1 aae
+aae aae 1 aaf
+aaf aaf 1 aan
+abg abg 8 aal abh abi abj abk abl aad abm
+abh abh 1 aae
+abi abi 1 aan
+abj abj 1 aan
+abk abk 8 abn aal aan abo abp aba abb abc
+abn abn 31 abd abe aal abf acg ach aan aci acj ack acl acm acn aco acp aca acb acc acd ace acf adg aai abc adh abp aae adi adj abb adk
+abd abd 5 aah ace aai adl aal
+ace ace 4 acf adg acp abf
+acf acf 0
+adg adg 0
+acp acp 2 adm adg
+adm adm 0
+abf abf 4 aap aaa adn aca
+adn adn 1 aan
+aca aca 1 aan
+adl adl 0
+abe abe 0
+acg acg 1 ado
+ado ado 7 aan adp ada ack adb adc add
+adp adp 0
+ada ada 3 ade adf aeg
+ade ade 1 ack
+ack ack 4 aeh aei abp aej
+aeh aeh 0
+aei aei 1 aeh
+abp abp 4 aek ael aem aen
+aek aek 2 adg aen
+aen aen 1 aan
+ael ael 4 aen aeo aep aeh
+aeo aeo 0
+aep aep 1 aan
+aem aem 0
+aej aej 3 aea aeb aec
+aea aea 1 aeh
+aeb aeb 1 aan
+aec aec 0
+adf adf 1 aan
+aeg aeg 0
+adb adb 0
+adc adc 0
+add add 0
+ach ach 3 aed aee ack
+aed aed 0
+aee aee 2 aef acf
+aef aef 2 afg aca
+afg afg 0
+aci aci 5 afh afi afj afk afl
+afh afh 8 afm afn afo afp afa afb afc afd
+afm afm 0
+afn afn 0
+afo afo 5 aal afe abp aae abb
+afe afe 2 aan abh
+abb abb 3 aae abp aff
+aff aff 3 aal aae ack
+afp afp 3 abp aae abb
+afa afa 0
+afb afb 0
+afc afc 0
+afd afd 0
+afi afi 2 bgg bgh
+bgg bgg 1 acg
+bgh bgh 1 acg
+afj afj 15 bgi bgj bgk bgl bgm bgn bgo bgp bga bgb bgc bgd bge bgf bhg
+bgi bgi 8 abd aal aco abp ace aai aae abb
+aco aco 0
+bgj bgj 2 abd ace
+bgk bgk 2 abd ace
+bgl bgl 4 abd aal abe bhh
+bhh bhh 2 ace abc
+abc abc 0
+bgm bgm 2 abd ace
+bgn bgn 5 bhi abd bhj acg ace
+bhi bhi 0
+bhj bhj 0
+bgo bgo 0
+bgp bgp 2 abd acf
+bga bga 2 abd aco
+bgb bgb 1 abd
+bgc bgc 0
+bgd bgd 2 abd aco
+bge bge 0
+bgf bgf 2 bhi abd
+bhg bhg 3 bhi abd acp
+afk afk 7 bhk bhl bhm bhn bho bhp bha
+bhk bhk 1 acc
+acc acc 5 bhb bhc aca bhd adg
+bhb bhb 2 bhe ace
+bhe bhe 1 bhf
+bhf bhf 1 big
+big big 0
+bhc bhc 3 bih bii ace
+bih bih 0
+bii bii 2 bhe bij
+bij bij 2 bik aca
+bik bik 1 bil
+bil bil 0
+bhd bhd 1 acp
+bhl bhl 1 acc
+bhm bhm 1 acc
+bhn bhn 1 acc
+bho bho 1 acc
+bhp bhp 1 acc
+bha bha 1 acc
+afl afl 0
+acj acj 5 aal aab bim aan abh
+bim bim 1 aan
+acl acl 7 bin acm ack aai bio abc acf
+bin bin 1 aac
+acm acm 7 bip bia bib bic bid bie bif
+bip bip 10 aai bia bjg bjh acg abp bji adp ack aca
+bia bia 7 abf bjj bjk aai bjl bhi acb
+bjj bjj 1 bjm
+bjm bjm 2 abf bjn
+bjn bjn 1 abf
+bjk bjk 2 bjo aal
+bjo bjo 2 bjp aan
+bjp bjp 0
+bjl bjl 0
+acb acb 7 bja bhb acc bhd acp ack bjb
+bja bja 1 bjc
+bjc bjc 0
+bjb bjb 0
+bjg bjg 0
+bjh bjh 0
+bji bji 8 acp aca bjd bje bjf acb bkg bkh
+bjd bjd 3 bje bjf bkh
+bje bje 0
+bjf bjf 1 bki
+bki bki 0
+bkh bkh 1 bkj
+bkj bkj 1 bkk
+bkk bkk 0
+bkg bkg 0
+bib bib 10 bie aai bji aal abp bhi acg acb bkk bkl
+bie bie 13 bip bid bic bif bkm ack aai bji bkn acg abc bko bjl
+bid bid 4 bkp aai bka bji
+bkp bkp 6 abf bjj bjk bjl acb acp
+bka bka 1 bkn
+bkn bkn 1 bkb
+bkb bkb 1 bkc
+bkc bkc 2 abp aan
+bic bic 2 aai bji
+bif bif 1 bji
+bkm bkm 11 aai bhj abp bji adp ack acb bhd ace aba bkd
+aba aba 0
+bkd bkd 4 acp bhd acb bjb
+bko bko 1 bke
+bke bke 0
+bkl bkl 0
+bio bio 1 aai
+acn acn 5 acm abd aal aai bio
+acd acd 1 bhi
+adh adh 0
+adi adi 2 acp bhi
+adj adj 4 aal aah aej bkf
+bkf bkf 0
+adk adk 1 aan
+abo abo 5 aan blg aak abe blh
+blg blg 2 aal abn
+blh blh 0
+abl abl 0
+abm abm 1 abk
+bli bli 0
+blj blj 0
+blk blk 1 aal
+bll bll 1 aal
+blm blm 0
+bln bln 1 blo
+blo blo 9 blp bla blb adp blc bld ble blf bmg
+blp blp 21 bmh abf bjj bmi blj bmj bmk bml abn bmm bmn abp bmo bmp aal bma bmb bmc bmd blb bme
+bmh bmh 3 abn bmf adi
+bmf bmf 0
+bmi bmi 0
+bmj bmj 2 aan aal
+bmk bmk 0
+bml bml 2 aal abn
+bmm bmm 5 aal abn acg bng bnh
+bng bng 0
+bnh bnh 0
+bmn bmn 1 abe
+bmo bmo 8 abn abp bni acb bje bjf aae abb
+bni bni 2 bnj acb
+bnj bnj 1 aal
+bmp bmp 2 bnk abn
+bnk bnk 2 aaf ack
+bma bma 1 abh
+bmb bmb 0
+bmc bmc 3 bnl bnm abf
+bnl bnl 0
+bnm bnm 4 abn bmh bmb abf
+bmd bmd 4 bnl bnm abf bmp
+blb blb 0
+bme bme 1 blj
+bla bla 10 bnn bno acl aai bio bnp bmf bna bnb bnc
+bnn bnn 24 abf aal abn bnp bnd bmf bmh bmk bne abp bnf aca bog aan ack boh boi aai bmb bke abo acf aeh bnl
+bnp bnp 4 abd aal abo aan
+bnd bnd 2 abp boh
+boh boh 7 abp ack boj bok bol abn acg
+boj boj 3 bom bon boo
+bom bom 4 bop aan ack bon
+bop bop 0
+bon bon 1 aal
+boo boo 0
+bok bok 2 boa bob
+boa boa 4 bop aan ack bon
+bob bob 4 aeh aei abp aej
+bol bol 0
+bne bne 8 abn abf acg ada bkb acm aai boc
+boc boc 4 abn aai acm bkb
+bnf bnf 6 aan abn bmf abe aca acf
+bog bog 3 bod bmn boe
+bod bod 0
+boe boe 1 bmn
+boi boi 3 abn bmh abp
+bno bno 1 bnn
+bna bna 4 abn bmh bnn bof
+bof bof 0
+bnb bnb 7 acg ada bne bpg bph bpi bpj
+bpg bpg 0
+bph bph 0
+bpi bpi 2 ack aal
+bpj bpj 1 boc
+bnc bnc 5 abn bpk abo bpl bpm
+bpk bpk 0
+bpl bpl 1 bpn
+bpn bpn 18 aan abn abo aal abp ach aed abe abf aca bmm acg bpo bnp bpp bpa aaf bpb
+bpo bpo 1 bim
+bpp bpp 5 abn ack acf adg bkb
+bpa bpa 4 abe abn aal abp
+bpb bpb 1 bpc
+bpc bpc 0
+bpm bpm 2 abn abo
+blc blc 8 bnl abn bmh blb acl aai bio abc
+bld bld 7 abn bnb abp abb aal aej ble
+ble ble 2 abn bnb
+blf blf 1 bnn
+bmg bmg 1 bnn
+bpd bpd 10 bmj bmh aal abn aan bpe abp aba ack bpf
+bpe bpe 1 aan
+bpf bpf 1 bag
+bag bag 3 bah aan bai
+bah bah 1 bai
+bai bai 1 aei
+baj baj 1 bpd
+bak bak 1 aal
+bal bal 1 aal
+bam bam 2 aan ban
+ban ban 0
+bao bao 0
+bap bap 1 bnb
+baa baa 1 abn
+bab bab 1 abn
+bac bac 1 abn
+bad bad 1 abn
+bae bae 1 abn
+baf baf 1 abn
+bbg bbg 1 abn
+bbh bbh 1 abn
+bbi bbi 1 abn
+bbj bbj 1 abn
+bbk bbk 1 abn
+bbl bbl 1 abn
+bbm bbm 1 abn
+bbn bbn 1 abn
+bbo bbo 1 abn
+bbp bbp 1 abn
+bba bba 1 abn
+bbb bbb 1 abn
+bbc bbc 1 abn
+bbd bbd 1 abn
+bbe bbe 1 abn
+bbf bbf 1 abn
+bcg bcg 1 abn
+bch bch 1 abn
+bci bci 1 abn
+bcj bcj 1 abn
+bck bck 1 abn
+bcl bcl 1 abn
+bcm bcm 1 abn
+bcn bcn 1 abn
+bco bco 1 abn
+bcp bcp 1 bkk
+bca bca 1 aal
+bcb bcb 1 aal
+bcc bcc 0
+bcd bcd 0
+bce bce 6 aal abo aan bne ack bld
+bcf bcf 0
+bdg bdg 1 bdh
+bdh bdh 5 aal aae aan aaf bdi
+bdi bdi 1 aan
+bdj bdj 2 bdh aal
+bdk bdk 0
+bdl bdl 0
+bdm bdm 0
+bdn bdn 0
+bdo bdo 0
+bdp bdp 0
+bda bda 0
+bdb bdb 7 bmm ack abp bdc aal aae aej
+bdc bdc 5 aal bdd bde bdf abp
+bdd bdd 3 beg aaf beh
+beg beg 0
+beh beh 2 aaf bei
+bei bei 2 aaf bej
+bej bej 0
+bde bde 6 beg aaf bek beh bel ack
+bek bek 4 beg aaf beh bem
+bem bem 2 aaf ben
+ben ben 0
+bel bel 3 beg beh aaf
+bdf bdf 1 aaf
+beo beo 5 aal bdd bde bdf abp
+bep bep 0
+bea bea 1 abn
+beb beb 8 aba abn abj abi ban aae abp abb
+bec bec 0
+bed bed 1 bee
+bee bee 38 abn bnn bno bmh bmb blo bkb aal abf bjj acg bog aan abp bcd boi ada bnb bef bfg bpb bmp bph bfh bfi bfj bfk bfl bfm bfn bfo bfp bfa bfb bfc bmj adj bfd
+bef bef 3 abn bmo bfe
+bfe bfe 0
+bfg bfg 2 bak abf
+bfh bfh 4 bnn acg bcd bmj
+bfi bfi 4 abn bmh bcd boi
+bfj bfj 7 adj abn bmh bff bcd bpb aal
+bff bff 2 bmh bmb
+bfk bfk 2 bmh bmb
+bfl bfl 2 bmh bmb
+bfm bfm 3 bmh bmb bcd
+bfn bfn 3 bmh bmb bcd
+bfo bfo 1 bmh
+bfp bfp 3 abn bcd adi
+bfa bfa 3 abn bcd adi
+bfb bfb 4 abn bmh bog aai
+bfc bfc 2 bmh bmb
+bfd bfd 4 bnn acg bcd bmj
+cgg cgg 1 aal
+cgh cgh 17 bnn abn bmb aal cgi cgj cgk bmm cgl abp cgm ack cgn aej aae abb bnl
+cgi cgi 1 bmk
+cgj cgj 2 bmm bmk
+cgk cgk 3 abn bmh bma
+cgl cgl 7 bma bmm abp cgo bco aba bnl
+cgo cgo 5 aan bco bmm abp abb
+cgm cgm 5 aal abn bmm abk ack
+cgn cgn 0
+cgp cgp 3 aan bno bnn
+cga cga 0
+cgb cgb 5 aaf bda aan aca cgc
+cgc cgc 1 aaf
+cgd cgd 4 cgb bpk acb cge
+cge cge 1 cgb
+cgf cgf 0
+chg chg 4 chh chi chj bpd
+chh chh 27 abn blj abf bmm bmi bln bmh bjj aan aal bnb bjk acg bjl ada bne abp aej boe bah bpi bkg chk aae abb bpj chl
+chk chk 17 ack ade boh bfe chm bjh chn bed bmo bpg bph blb cho acm acb bnl aai
+chm chm 0
+chn chn 1 abn
+cho cho 0
+chl chl 11 ack aal aae abp aej bpb chp bdf beo bep bdb
+chp chp 1 aae
+chi chi 10 cgh bmf cha bnp bam bnn chb bnd bog bpb
+cha cha 0
+chb chb 1 chc
+chc chc 7 chd aae che abp ack chf acf
+chd chd 2 bnl abn
+che che 1 aan
+chf chf 8 abn bmh bnn bno bnd abp aae abb
+chj chj 2 cig cih
+cig cig 0
+cih cih 1 baj
+cii cii 1 bnn
+cij cij 0
+cik cik 0
+cil cil 1 bnn
+cim cim 1 baj
+cin cin 3 bnn bmh abf
+cio cio 1 bnn
+cip cip 4 abp chl aal ack
+cia cia 6 cib cic cid cie cif cjg
+cib cib 0
+cic cic 10 aal aae aan abp ack aaf aca aej abb cjh
+cjh cjh 2 boj cji
+cji cji 6 cjj aae cjk abp aak aej
+cjj cjj 0
+cjk cjk 0
+cid cid 21 cjl ban bjk bmf abo bnd bmj bkb acl bmm bnp bmh bjj aal cjm aan cjn cjo cjp cja chl
+cjl cjl 4 abn aal aan ack
+cjm cjm 2 aan aal
+cjn cjn 3 cjb cjc aal
+cjb cjb 2 aca aal
+cjc cjc 1 aca
+cjo cjo 24 acg abf chg bpo abg abl abk aed abp abe ack cjd bof bed cje bjg cjf bce acf abc ckg bpb boh ckh
+cjd cjd 1 boj
+cje cje 1 adp
+cjf cjf 2 abn aan
+ckg ckg 7 aal aae cki aan abp ack chl
+cki cki 1 aan
+ckh ckh 1 chg
+cjp cjp 7 abn ach aee bnj bpl bpp ckj
+ckj ckj 19 abn abf aan bmm aee aal bpl acg aej bce abp ack ckk aca bcc ckl adi bpb chl
+ckk ckk 1 aan
+ckl ckl 0
+cja cja 2 abp acg
+cie cie 19 bnn ckm aba beb ada abh cki bnf bog ckn boh cgm acm cko adl cgl bfe ckp cka
+ckm ckm 2 aal ckb
+ckb ckb 1 aal
+ckn ckn 1 ckc
+ckc ckc 3 aal bpb abp
+cko cko 19 abn aaf abp bmm aed abf che bnn ack aal aan ckd ach aae bpb cgm cke aca abb
+ckd ckd 4 abn ada bnb abp
+cke cke 0
+ckp ckp 7 ckf clg clh bdj aai abi bnl
+ckf ckf 9 abp bed aej aah aak cli ack abf bjj
+cli cli 0
+clg clg 0
+clh clh 17 bmm abn bnn bno bmh bmk bpp abf bmj abo bpl aal acg bpa bof bcc clj
+clj clj 2 aae clk
+clk clk 4 aan cll aba aca
+cll cll 2 aan aae
+cka cka 2 abn bmh
+cif cif 22 cig clm cln clo bce blj abf bmi blo bnb cgh cha bpe aco clp cla bmn clb bna clc cja cld
+clm clm 4 bnl abn bmh blb
+cln cln 1 bnn
+clo clo 4 bnn bce bnb bmb
+clp clp 2 abp aal
+cla cla 1 aan
+clb clb 6 cle clf cmg cmh cmi cmj
+cle cle 28 aan abn aal bnn bjj cmk bee bfg cln ban bmf bmm bjk abp ack aba acg bmo bph cml cmm cmn bam cmo aae abb bpb bnl
+cmk cmk 44 cmp cma cmb cmc cmd cme cmf cng cnh cni cnj cnk cnl cnm cnn cno cnp cna cnb cnc cnd cne cnf cog coh coi coj cok col com con coo cop coa cob coc cod coe cof cpg cph cpi cpj cpk
+cmp cmp 12 abn bmh bno bnn bnp abp cpl bmb acf bjm abf bnl
+cpl cpl 7 bfg bmf bjk abp ack boh abf
+cma cma 5 abn bmh bno bmk bln
+cmb cmb 9 abn bmh bno bnn bnp abp cpl bmb acf
+cmc cmc 6 abn bmh bno bmk bln cpm
+cpm cpm 2 bmh cgn
+cmd cmd 6 abn bmh bno bmk abp boh
+cme cme 13 abn bmh bno cpn bnn bmf aal bne abp ack boh cpo cpp
+cpn cpn 0
+cpo cpo 1 aai
+cpp cpp 4 abn bmf bmh abp
+cmf cmf 21 abn bmh bno cpn bnn bmf aal bne abp ack boh bmo cpa aca cpo aej ace aae abb aai cpp
+cpa cpa 3 abn bmf bmh
+cng cng 18 abn bmh bno cpn bnn bmf aal bne abp ack boh bmo cpb cpp cpo aej aae abb
+cpb cpb 3 abn bmh bmf
+cnh cnh 13 abn bmh bno bnn bmf abp ack boh bmo bpb cpc ace aai
+cpc cpc 0
+cni cni 7 abn bmh bno bnn bmf cpd cpo
+cpd cpd 5 abn abp bkg aae abb
+cnj cnj 16 abn bmh bno bmk bin aal cpn bmf abp ack bmo boh aag ace cpe adj
+cpe cpe 1 bmh
+cnk cnk 4 abn bmh bno bnn
+cnl cnl 9 abn bmh bno bmk aal cmp ack adj boh
+cnm cnm 4 abn bmh bno bmk
+cnn cnn 15 abn bmh bno bmk bin aal cpn abp ack bmo boh aag aba ace adj
+cno cno 4 abn bmh bno bmk
+cnp cnp 6 abn bmh bno bmk bln cgp
+cna cna 5 abn bmh bno bmk abp
+cnb cnb 5 abn bmh bno bmk aal
+cnc cnc 4 abn bmh bno bmk
+cnd cnd 5 abn bmh bno bmk abp
+cne cne 7 abn bmh bno bnn abp aai cpc
+cnf cnf 10 abn bmh bno bmk abp cpn aal ack boh cpo
+cog cog 15 abn bmh bno bmk bin aal cpn bmf abp ack bmo boh aag ace adj
+coh coh 6 abn bmh bno bmk abp bnl
+coi coi 6 abn bmh bno bmk cpf coj
+cpf cpf 4 abn bmh bno bmk
+coj coj 6 abn bmh bno bmk abp bnl
+cok cok 4 abn bmh bno bmk
+col col 5 abn bmh bno bmk cag
+cag cag 2 bnl abn
+com com 4 abn bmh bno bmk
+con con 6 abn bmh bno bmk bmf bnn
+coo coo 5 abn bmh bno bmk bmf
+cop cop 5 abn bmh bno bmk bmf
+coa coa 4 abn bmh bno bmk
+cob cob 5 abn bmh bno bmk bmf
+coc coc 6 abn bmh bno bnn bnp bjk
+cod cod 4 abn bmh bno bnn
+coe coe 4 abn bmh bno bmk
+cof cof 7 abn bmh bno bmk bnp aal bmf
+cpg cpg 5 abn bmh bno bmk bmm
+cph cph 4 abn bmh bno bmk
+cpi cpi 4 abn bmh bno bmk
+cpj cpj 4 abn bmh bno bnn
+cpk cpk 18 abn bmh bno cpn bnn bmf aal bne abp ack boh bmo cpb cpp cpo aej aae abb
+cml cml 1 bnn
+cmm cmm 4 cah cai caj cak
+cah cah 2 bmh bmb
+cai cai 2 bmh bmb
+caj caj 2 bmh bmb
+cak cak 2 bmh bmb
+cmn cmn 75 cal cam can cao cap caa cab cac cad cae caf cbg cbh cbi cbj cbk cbl cbm cbn cbo cbp cba cbb cbc cbd cbe cbf ccg cch cci ccj cck ccl ccm ccn cco ccp cca ccb ccc ccd cce ccf cdg cdh cdi cdj cdk cdl cdm cdn cdo cdp cda cdb cdc cdd cde cdf ceg ceh cei cej cek cel cem cen ceo cep cea ceb cec ced cee cef
+cal cal 4 bnl abn bmh blb
+cam cam 4 bnl abn bmh blb
+can can 4 bnl abn bmh blb
+cao cao 4 bnl abn bmh blb
+cap cap 4 bnl abn bmh blb
+caa caa 4 bnl abn bmh blb
+cab cab 4 bnl abn bmh blb
+cac cac 4 bnl abn bmh blb
+cad cad 4 bnl abn bmh blb
+cae cae 4 bnl abn bmh blb
+caf caf 4 bnl abn bmh blb
+cbg cbg 4 bnl abn bmh blb
+cbh cbh 4 bnl abn bmh blb
+cbi cbi 4 bnl abn bmh blb
+cbj cbj 4 bnl abn bmh blb
+cbk cbk 4 bnl abn bmh blb
+cbl cbl 4 bnl abn bmh blb
+cbm cbm 4 bnl abn bmh blb
+cbn cbn 4 bnl abn bmh blb
+cbo cbo 4 bnl abn bmh blb
+cbp cbp 4 bnl abn bmh blb
+cba cba 4 bnl abn bmh blb
+cbb cbb 4 bnl abn bmh blb
+cbc cbc 5 bnl abn bmh blb cfg
+cfg cfg 4 bnl abn bmh blb
+cbd cbd 3 bnl abn cfh
+cfh cfh 3 bnl abn cdg
+cdg cdg 2 bnl abn
+cbe cbe 2 bnl abn
+cbf cbf 2 bnl abn
+ccg ccg 3 bnl abn bmh
+cch cch 3 bnl abn bmh
+cci cci 3 bnl abn bmh
+ccj ccj 3 bnl abn bmh
+cck cck 3 bnl abn bmh
+ccl ccl 3 bnl abn bmh
+ccm ccm 3 bnl abn bmh
+ccn ccn 3 bnl abn bmh
+cco cco 3 bnl abn bmh
+ccp ccp 3 bnl abn bmh
+cca cca 3 bnl abn bmh
+ccb ccb 3 bnl abn bmh
+ccc ccc 3 bnl abn bmh
+ccd ccd 3 bnl abn bmh
+cce cce 3 bnl abn bmh
+ccf ccf 3 bnl abn bmh
+cdh cdh 2 bnl abn
+cdi cdi 8 bnl abn abp bmb cdn bmm bmh bnm
+cdn cdn 8 bnl abn abp bmb bmm bmh bnm bfg
+cdj cdj 2 bnl abn
+cdk cdk 2 bnl abn
+cdl cdl 2 bnl abn
+cdm cdm 3 bnl abn bmh
+cdo cdo 2 bnl abn
+cdp cdp 2 bnl abn
+cda cda 4 bnl abn bmh bmj
+cdb cdb 4 bnl abn bmh cfi
+cfi cfi 3 bnl abn bmh
+cdc cdc 3 bnl abn bmh
+cdd cdd 5 bnl abn bmh ack cfj
+cfj cfj 1 aae
+cde cde 4 bnl bnm ced abf
+ced ced 3 bnl bnm abf
+cdf cdf 4 bnl bnm ced abf
+ceg ceg 3 bnl bnm abf
+ceh ceh 3 bnl bnm abf
+cei cei 3 bnl bnm abf
+cej cej 3 bnl bnm abf
+cek cek 3 abn bmh bnm
+cel cel 3 abn bmh bnm
+cem cem 3 abn bmh bnm
+cen cen 3 abn bmh bnm
+ceo ceo 3 bnl bnm abf
+cep cep 3 bnl bnm abf
+cea cea 3 bnl bnm abf
+ceb ceb 3 bnl bnm abf
+cec cec 3 bnl bnm abf
+cee cee 3 bnl bnm abf
+cef cef 4 bnl abn bmh bmb
+cmo cmo 7 aan aal abo abf abp bao ack
+clf clf 9 abn aal bnn cfk bmf bmo ack bmb bnl
+cfk cfk 13 cph cnp cfl cob cmp cma coo cop cmc cnm cnk cpg coc
+cfl cfl 4 abn bmh bno bmk
+cmg cmg 8 abn aal bnn cfm bmf bmo ack bnl
+cfm cfm 5 cnp cmc cnm cfn coc
+cfn cfn 4 abn bmh bno bnn
+cmh cmh 7 abn aal bnn bmf bmo ack bnl
+cmi cmi 8 abn aal bnn cfo bmf bmo ack bnl
+cfo cfo 4 abn bmh bno bnn
+cmj cmj 26 aan abn aal bnn bjj cfp bee bfg cln ban bmf bmm abp ack aba bmo cml cmm cmn cfa bam cmo aae abb bpb bnl
+cfp cfp 22 cnk coa cob coc cod coe cof cph cpi con cfb cfc cmp cmb cnm cma cmc cpg cop cfd cna cfe
+cfb cfb 15 abn bmh bno cpn bnn bmf aal bne abp ack boh cpo cpp cff cfd
+cff cff 1 bmf
+cfd cfd 7 abn bmh bno bmk bmf bnn bnl
+cfc cfc 9 abn bmh bno bmk bmf bkb cfd bnn cff
+cfe cfe 5 abn bmh bno bmk bmb
+cfa cfa 0
+clc clc 9 ade bco dgg bee dgh dgi cpp cgb cgd
+dgg dgg 1 aeh
+dgh dgh 0
+dgi dgi 3 aan aal abp
+cld cld 1 cgb
+cjg cjg 20 dgj dgk dgl dgm cpd adp che cho dgn dgo dgp bkc dga dgb chp dgc dgd dge adj bnl
+dgj dgj 31 bln blb dgf dhg dhh dhi dhj dhk dhl dhm dhn dho dhp dha dhb dhc dhd dhe dhf dig dih dii dij dik dil dim din dio dip dia dib
+dgf dgf 4 dic cci bmh blb
+dic dic 4 bnl abn bmh blb
+dhg dhg 4 did cch bmh blb
+did did 5 bnl abn bmh blb bmp
+dhh dhh 4 die dif bmh blb
+die die 4 bnl abn bmh blb
+dif dif 3 bnl abn bmh
+dhi dhi 5 cde djg bmh blb abf
+djg djg 3 bnl abn bmh
+dhj dhj 5 cep ccn djg bmh blb
+dhk dhk 4 djh djg bmh blb
+djh djh 3 bnl bnm abf
+dhl dhl 4 dji djg bmh blb
+dji dji 4 bnl bnm abf djh
+dhm dhm 4 djg djj bmh blb
+djj djj 3 bnl bnm abf
+dhn dhn 4 djg cdf bmh blb
+dho dho 5 cbi ccb cci bmh blb
+dhp dhp 5 djk cca cch bmh blb
+djk djk 5 bnl abn bmh blb bmp
+dha dha 6 cbb djl ccd dif bmh blb
+djl djl 4 bnl abn bmh blb
+dhb dhb 4 djm cdk bmh blb
+djm djm 5 bnl abn bmh blb cao
+dhc dhc 4 djn ccb bmh blb
+djn djn 4 bnl abn bmh blb
+dhd dhd 4 djo cca bmh blb
+djo djo 5 bnl abn bmh blb bmp
+dhe dhe 4 djp ccd bmh blb
+djp djp 4 bnl abn bmh blb
+dhf dhf 4 djg bmc bmh blb
+dig dig 4 djg dja bmh blb
+dja dja 3 bnl bnm abf
+dih dih 4 djg djb bmh blb
+djb djb 3 bnl bnm abf
+dii dii 5 djg djc ccf bmh blb
+djc djc 4 bnl bnm abf bmp
+dij dij 4 djd dje bmh blb
+djd djd 4 bnl abn bmh blb
+dje dje 3 bnl abn bmh
+dik dik 4 cbp cck bmh blb
+dil dil 5 djf cba ccc bmh blb
+djf djf 4 bnl abn bmh blb
+dim dim 5 djg cco ceo bmh blb
+din din 4 djg cea bmh blb
+dio dio 4 djg ceh bmh blb
+dip dip 4 dkg ccl bmh blb
+dkg dkg 3 abn bmh bmb
+dia dia 4 djg ceg bmh blb
+dib dib 5 bmj dkh dki bmh blb
+dkh dkh 6 bnl abn bmh blb bmj bmp
+dki dki 3 bnl abn bmh
+dgk dgk 4 abk abj abn aal
+dgl dgl 4 abk abi abn aal
+dgm dgm 3 aan ack ckf
+dgn dgn 14 bee dkj cai cah cak caj bnn aal abp acf adg dkk adi bnl
+dkj dkj 2 bmh bmb
+dkk dkk 2 bmh bmb
+dgo dgo 6 aal ckm aae ack dkl abp
+dkl dkl 2 aan aak
+dgp dgp 4 bpk dkm cji bal
+dkm dkm 0
+dga dga 6 cjk aal abn bnn ack abc
+dgb dgb 7 abn aal abf aan abp cmo chl
+dgc dgc 0
+dgd dgd 2 cmo aba
+dge dge 0
+dkn dkn 2 ack cji
+dko dko 0
