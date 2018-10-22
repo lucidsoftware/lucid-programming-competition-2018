@@ -9,14 +9,16 @@ To help with your strategizing, you decide to write a program to determine the m
 > 1. You must "buy" once and "sell" once (and only once).
 > 1. You cannot buy and sell in the same turn.
 > 1. Shorting is not an option. You must buy before you sell.
+> 1. Assume you are rich enough to buy at any time.
+> 1. Maximum profit is not guaranteed to be positive.
 
 ## Input
 
-The input is given as one line of  _N_ space-separated numbers, each representing the "exchange rate" for one turn.
+The input is given as one line of _N_ space-separated numbers, each representing the `exchange rate` for one turn.
 
-> 2 <= _N_ <= 100,000
+`2 <= N <= 100,000`
 
-> 0 <= _exchange rate_ <= 1,000,000
+`0 <= exchange rate <= 1,000,000`
 
 ## Output
 
