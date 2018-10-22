@@ -70,3 +70,16 @@ You must output your solution to each puzzle in a grid format shown below.  Ever
     \ 5 / \ 7 / \ 1 /
     4 X 6 6 X 1 1 X 0
     / 1 \ / 0 \ / 2 \
+
+### Example Input 3
+
+    2 1
+    1 1 1 1
+    1 1 1 1
+
+### Example Output 3
+
+    \ 1 / \ 1 /
+    1 X 1 1 X 1
+    / 1 \ / 1 \
+
