@@ -24,7 +24,7 @@ The word(s) defined in the first line of input, but drawn with the defined ASCII
 
 ## Examples
 ###  Input:
->Note: The whitespace after the the 'l' character is for the space character.
+>Note: The whitespace after the the 'h' character is for the space character.
 ```
 hello world
 8
