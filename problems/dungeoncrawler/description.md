@@ -64,7 +64,7 @@ na na 1 gon
             <pre>lonelymazes granitelair boilingpits darkertombs dreaddelves</pre>
         </td>
         <td>
-            <pre>not possible</pre>
+            <pre>never gon na give you up</pre>
         </td>
     </tr>
     <tr>
@@ -109,7 +109,7 @@ narnia gold 1 unicorn
     </tr>
     <tr>
         <td>
-            <pre>never gon na give you up</pre>
+            <pre>not possible</pre>
         </td>
         <td>
             <pre>not possible</pre>
