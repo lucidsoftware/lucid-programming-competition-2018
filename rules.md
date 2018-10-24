@@ -8,7 +8,7 @@ This contest is open to all college students. Each team may have up to three mem
 
 There are 10 problems focusing on reasoning and algorithmic problem solving. Each problem has a description, input format, output format, and samples.
 
-Requests for clarification may be submitted to [https://www.hackerrank.com/inbox](https://www.hackerrank.com/inbox). Each problem has been carefully reviwed for clarity and correctness, so it is unlikly that any further information will be given. If ambiguity or error is discovered, all contestants will be notified at [https://www.hackerrank.com/notifications](https://www.hackerrank.com/notifications).
+Requests for clarification may be submitted to `lucidsoftware` via [https://www.hackerrank.com/inbox](https://www.hackerrank.com/inbox). Each problem has been carefully reviewed for clarity and correctness, so it is unlikly that any further information will be given. If ambiguity or error is discovered, all contestants will be notified at [https://www.hackerrank.com/notifications](https://www.hackerrank.com/notifications).
 
 ## Submissions
 
