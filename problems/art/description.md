@@ -14,7 +14,7 @@ Every line in the input ends with a newline. The input is defined as follows:
 * The third line contains a single integer H which is the number of rows of subcharacters that make up a single character.
 * The remaining lines define the ASCII font as follows:
   * The first line will contain a single letter. This is the letter of the ASCII character that is being defined.
-  * The next **H** lines will contain the subcharacters that make up this single character.
+  * The next **H** lines will contain the subcharacters that make up this single character. Each of these lines will be the same length and contain any necessary whitespace, both within/around the character and for padding between characters
   * Repeat the above two bullets **N** times to get all the characters defined by ASCII font.
 
 >Note: The ASCII font will always contain at least enough characters to draw the required word(s).

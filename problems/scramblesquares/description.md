@@ -41,45 +41,69 @@ There is exactly one solution to each puzzle.  You should not rotate any tiles f
 ## Output Format
 You must output your solution to each puzzle in a grid format shown below.  Every tile in the output should be exactly 5 characters wide by 3 characters high (don't forget the spaces!), with a single horizontal space between tiles.
 
-### Example Input 1
+## Examples
 
-    2 2
-    2 1 3 2
-    3 6 7 0
-    5 6 7 1
-    7 5 4 6
-
-### Example Output 1
-
-    \ 2 / \ 5 /
-    2 X 1 1 X 6
-    / 3 \ / 7 \
-    \ 3 / \ 7 /
-    0 X 6 6 X 5
-    / 7 \ / 4 \
-
-### Example Input 2
-
-    3 1
-    7 1 0 6
-    5 6 1 4
-    1 0 2 1
-
-### Example Output 2
-
-    \ 5 / \ 7 / \ 1 /
-    4 X 6 6 X 1 1 X 0
-    / 1 \ / 0 \ / 2 \
-
-### Example Input 3
-
-    2 1
-    1 1 1 1
-    1 1 1 1
-
-### Example Output 3
-
-    \ 1 / \ 1 /
-    1 X 1 1 X 1
-    / 1 \ / 1 \
-
+<table>
+    <tr>
+        <th>Input 1</th>
+        <th>Input 2</th>
+        <th>Input 3</th>
+    </tr>
+    <tr>
+        <td>
+            <pre>
+2 2
+2 1 3 2
+3 6 7 0
+5 6 7 1
+7 5 4 6
+            </pre>
+        </td>
+        <td>
+            <pre>
+3 1
+7 1 0 6
+5 6 1 4
+1 0 2 1
+            </pre>
+        </td>
+        <td>
+            <pre>
+2 1
+1 1 1 1
+1 1 1 1
+            </pre>
+        </td>
+    </tr>
+    <tr>
+        <th>Output 1</th>
+        <th>Output 2</th>
+        <th>Output 3</th>
+    </tr>
+    <tr>
+        <td>
+            <pre>
+\ 2 / \ 5 /
+2 X 1 1 X 6
+/ 3 \ / 7 \
+\ 3 / \ 7 /
+0 X 6 6 X 5
+/ 7 \ / 4 \
+            </pre>
+        </td>
+        <td>
+            <pre>
+\ 5 / \ 7 / \ 1 /
+4 X 6 6 X 1 1 X 0
+/ 1 \ / 0 \ / 2 \
+            </pre>
+        </td>
+        <td>
+            <pre>
+\ 1 / \ 1 /
+1 X 1 1 X 1
+/ 1 \ / 1 \
+            </pre>
+        </td>
+    </tr>
+</table>

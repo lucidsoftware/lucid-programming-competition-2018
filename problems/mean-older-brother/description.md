@@ -23,8 +23,8 @@ Print out the number of moves it takes little brother to return to his starting 
 
 <table>
     <tr>
-        <th>Input 1</th>
-        <th>Input 2</th>
+        <th width="50%">Input 1</th>
+        <th width="50%">Input 2</th>
     </tr>
     <tr>
         <td>

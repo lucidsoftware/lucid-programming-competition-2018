@@ -14,30 +14,50 @@ The first line is an integer 2 <= **n** <= 25, the number of cards in the deck, 
 
 Print the value of the card missing from the deck for each game played.
 
-## Example  Input 1 ##
+<table>
+    <tr>
+        <th width="50%">Input 1</th>
+        <th width="50%">Input 2</th>
+    </tr>
+    <tr>
+        <td>
+            <pre>
+12 2
+1 9 4 3 12 8 10 1 7 5 6
+7 2 6 12 3 1 5 4 8 10 9
+            </pre>
+        </td>
+        <td>
+            <pre>
+5 5
+3 5 4 1
+2 4 1 5
+5 3 1 4
+4 2 3 1
+1 5 2 3
+            </pre>
+        </td>
+    </tr>
+    <tr>
+        <th>Output 1</th>
+        <th>Output 2</th>
+    </tr>
+    <tr>
+        <td>
+            <pre>
+2
+11
+            </pre>
+        </td>
+        <td>
+            <pre>
+2
+3
+2
+5
+4
+            </pre>
+        </td>
+    </tr>
 
-    12 2
-    1 9 4 3 12 8 10 1 7 5 6
-    7 2 6 12 3 1 5 4 8 10 9
-
-## Example Output 1 ##
-
-    2
-    11
-
-## Example Input 2 ##
-
-    5 5
-    3 5 4 1
-    2 4 1 5
-    5 3 1 4
-    4 2 3 1
-    1 5 2 3
-
-## Example Output 2 ##
-
-    2
-    3
-    2
-    5
-    4
+</table>

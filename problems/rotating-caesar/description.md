@@ -16,21 +16,35 @@ Print out the code your rotating cipher generates, on a single line.
 
 <table>
     <tr>
-        <th>Input</th>
-        <td>aaaaa</td>
+        <th>Input 1</th>
+        <th>Input 2</th>
     </tr>
     <tr>
-        <th>Output</th>
-        <td>defgh</td>
+        <td>
+            <pre>
+aaaaa
+            </pre>
+        </td>
+        <td>
+            <pre>
+Let's meet in the old treehouse at noon (12:00pm).
+            </pre>
+        </td>
     </tr>
-</table>
-<table>
     <tr>
-        <th>Input-2</th>
-        <td>Let's meet in the old treehouse at noon (12:00pm).</td>
+        <th>Output 1</th>
+        <th>Output 2</th>
     </tr>
     <tr>
-        <th>Output-2</th>
-        <td>Oiy'y tmnd tz gvt ecv mlzaemtsf cw rtuu (12:00xv).</td>
+        <td>
+            <pre>
+defgh
+            </pre>
+        </td>
+        <td>
+            <pre>
+Oiy'y tmnd tz gvt ecv mlzaemtsf cw rtuu (12:00xv).
+            </pre>
+        </td>
     </tr>
 </table>

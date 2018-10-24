@@ -6,13 +6,10 @@ When they are together, their friend Kendall says she is thinking of a rectangle
 
 They then have the following honest conversation.
 
-><b>Avery:</b> I don't know what `w` and `h` are.
-<br>
-><b>Pat:</b> I knew that.
-<br>
-><b>Avery:</b> Now I know what they are.
-<br>
-><b>Pat:</b> I now know too.
+> <b>Avery:</b> I don't know what `w` and `h` are.<br>
+> <b>Pat:</b> I knew that.<br>
+> <b>Avery:</b> Now I know what they are.<br>
+> <b>Pat:</b> I now know too.
 
 In additional to being honest, both Pat and Avery are very smart. They use all the information they have available.
 
