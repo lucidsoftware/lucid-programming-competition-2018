@@ -8,7 +8,7 @@ Mario knows that Bowser is always up to no good so he suspects Bowser of cheatin
 
 # Input #
 
-The first line is an integer 2 <= N <= 25, the number of cards in the deck, and an integer 1 <= k <= 5, the number of games they will play. The next k lines contain space seperated numbers denoting the cards in the deck during that game. The card values range from  1 to n with each value only appearing a single time in the deck.
+The first line is an integer 2 <= **n** <= 25, the number of cards in the deck, and an integer 1 <= **k** <= 5, the number of games they will play. The next **k** lines contain space seperated numbers denoting the cards in the deck during that game. The card values range from  1 to **n** with each value only appearing a single time in the deck.
 
 # Output #
 
