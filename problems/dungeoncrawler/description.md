@@ -37,17 +37,21 @@ Output the shortest space-separated list of dungeons you’d have to complete in
 diamond ruby
 darkertombs bluekey 1 brownkey
 lonelymazes brownkey 0
-granitelair diamond 2 bluekey redkey
-dreaddelves ruby 1 brownkey
+dreaddelves diamond 2 bluekey redkey
+granitelair ruby 1 brownkey
 boilingpits redkey 1 brownkey
 </pre>
         </td>
         <td>
             <pre>
-2
-apple
-a orange 1 apple
-b apple 1 orange
+6
+give up
+up up 2 na you
+never never 0
+gon gon 1 never
+give give 2 na gon
+you you 0
+na na 1 gon
 </pre>
         </td>
     </tr>
@@ -57,7 +61,7 @@ b apple 1 orange
     </tr>
     <tr>
         <td>
-            <pre>lonelymazes dreaddelves boilingpits darkertombs granitelair</pre>
+            <pre>lonelymazes granitelair boilingpits darkertombs dreaddelves</pre>
         </td>
         <td>
             <pre>not possible</pre>
@@ -69,7 +73,7 @@ b apple 1 orange
     </tr>
     <tr>
         <td>It is faster to get the `ruby` than the `diamond`, so get the `ruby` first. Next when obtaining the `diamond`, remember that we already have the `brownkey`. We need to get the `bluekey` and `redkey` neither of which requires visiting any other dungeons first, so we go visit the boilingpits first. (Because `boilingpits` is alphabetically less than `darkertombs`.)</td>
-        <td>It is not possible to obtain the `apple`, because dungeons `a` and `b` form a cycle in their dependencies.</td>
+        <td>We're no strangers to love. You know the rules and so do I. We believe you can solve this problem.</td>
     </tr>
 </table>
 <br>
@@ -85,14 +89,10 @@ b apple 1 orange
     <tr>
         <td>
             <pre>
-6
-give up
-up up 2 na you
-never never 0
-gon gon 1 never
-give give 2 na gon
-you you 0
-na na 1 gon
+2
+apple
+a orange 1 apple
+b apple 1 orange
 </pre>
         </td>
         <td>
@@ -120,7 +120,7 @@ narnia gold 1 unicorn
         <th>Explanation 4</th>
     </tr>
     <tr>
-        <td>We're no strangers to love. You know the rules and so do I. We believe you can solve this problem.</td>
+        <td>It is not possible to obtain the `apple`, because dungeons `a` and `b` form a cycle in their dependencies.</td>
         <td>Unicorns don't exist, so you can't enter `narnia`.</td>
     </tr>
 </table>
