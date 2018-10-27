@@ -24,10 +24,6 @@ function bucket(data, key) {
 }
 
 const whitelist = {
-    1303944631: true,
-    1303945100: true,
-    1303945147: true,
-    1303945177: true,
 };
 
 function calculateScore(submissions) {
