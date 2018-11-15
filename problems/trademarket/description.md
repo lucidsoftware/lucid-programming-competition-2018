@@ -18,7 +18,7 @@ The input is given as one line of `N` space-separated numbers, each representing
 
 `2 <= N <= 100,000`
 
-`0 <= exchange rate <= 1,000,000`
+`0 <= exchange rate <= 10,000,000`
 
 ## Output
 

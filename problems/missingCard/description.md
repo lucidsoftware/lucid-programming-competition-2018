@@ -23,7 +23,7 @@ Print the value of the card missing from the deck for each game played.
         <td>
             <pre>
 12 2
-1 9 4 3 12 8 10 1 7 5 6
+1 9 4 3 12 8 10 11 7 5 6
 7 2 6 12 3 1 5 4 8 10 9
             </pre>
         </td>
