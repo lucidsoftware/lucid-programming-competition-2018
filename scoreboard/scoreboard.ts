@@ -10,7 +10,7 @@ let cookie = new tough.Cookie({
     maxAge: 31536000
 });
 
-const LOCK_SCOREBOARD = true || process.env['LOCK_SCOREBOARD'];
+const LOCK_SCOREBOARD = false;
 
 function bucket(data, key) {
     let result = {};
@@ -24,6 +24,7 @@ function bucket(data, key) {
 }
 
 const whitelist = {
+    1311122608: true,
 };
 
 function calculateScore(submissions) {
