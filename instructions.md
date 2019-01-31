@@ -2,7 +2,7 @@
 
 ## Sign up
 
-1. Go to [https://www.hackerrank.com/auth/signup/lucid-2018-osu](https://www.hackerrank.com/auth/signup/lucid-2018-osu) and create a HackerRank account for your team. The name should be your team name, as you want it to appear on the leaderboard.
+1. Go to [https://www.hackerrank.com/auth/signup/lucid-2019-cu](https://www.hackerrank.com/auth/signup/lucid-2019-cu) and create a HackerRank account for your team. The name should be your team name, as you want it to appear on the leaderboard.
 1. Optionally, you may change your username at [https://www.hackerrank.com/settings/account](https://www.hackerrank.com/settings/account).
 
 ## Practice
@@ -11,7 +11,7 @@ Go to [https://www.hackerrank.com/lucid-2018-practice](https://www.hackerrank.co
 
 ## Compete
 
-The competition will be available at  [https://www.hackerrank.com/lucid-2018-osu](https://www.hackerrank.com/lucid-2018-osu).
+The competition will be available at  [https://www.hackerrank.com/lucid-2019-cu](https://www.hackerrank.com/lucid-2019-cu).
 
 At the start of the competition, you will also receive a hard copy of the problems.
 

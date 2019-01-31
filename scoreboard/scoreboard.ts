@@ -99,7 +99,7 @@ let problems = [
    'quick-chats',
 ];
 
-const CONTEST_NAME= 'lucid-2018-osu';
+const CONTEST_NAME= 'lucid-2019-cu';
 let problem_names = {
    'art-1': 'Art',
    'dungeon-crawler': 'Dungeon Crawler',
@@ -163,6 +163,7 @@ export async function leaderboard(schoolFilter?:string) {
         'usu': 'USU',
         'utah': 'Utah',
         'osu': 'OSU',
+        'cu': 'CU',
     };
     schoolFilter = schoolFilter && schoolFilter.toLocaleLowerCase();
     if(schoolFilter && !(schoolFilter in abbreviations)) {
@@ -251,7 +252,7 @@ export async function leaderboard(schoolFilter?:string) {
 
         let names = bio.map(n => escape(n)).join('<br>');
 
-        let nameTooltip = bio.length > 0 ? 'Competitors:<br>' + names : 'Update the "About" field to have the school you are competing at as the first line (OSU), followed by the name of each person on your team on the next lines.<br><b>You must do this to be eligible for prizes</b>';
+        let nameTooltip = bio.length > 0 ? 'Competitors:<br>' + names : 'Update the "About" field to have the school you are competing at as the first line (CU), followed by the name of each person on your team on the next lines.<br><b>You must do this to be eligible for prizes</b>';
 
         let row = `\n<tr><td>${i+1}</td><td><a class="tooltip${bio.length == 0 ? ' need-names' : ''}" href="https://www.hackerrank.com/${score.userName}">${escape(profiles[score.userName].model.name)}${bio.length == 0 ? '*' : ''} <span class="tooltiptext">${nameTooltip}</span></a></td>`;
         if(schoolFilter && schoolFilter != school) {
@@ -264,7 +265,7 @@ export async function leaderboard(schoolFilter?:string) {
                 row += `<td>${abbreviations[school]}</td>`;
             }
         } else {
-            row += `<td><a class="tooltip" href="https://www.hackerrank.com/settings/bio">Set Location<span class="tooltiptext">Update the "About" field to have the school you are competing at as the first line (OSU), followed by the name of each person on your team on the next lines.<br><b>You must do this to be eligible for prizes</b></span></td>`;
+            row += `<td><a class="tooltip" href="https://www.hackerrank.com/settings/bio">Set Location<span class="tooltiptext">Update the "About" field to have the school you are competing at as the first line (CU), followed by the name of each person on your team on the next lines.<br><b>You must do this to be eligible for prizes</b></span></td>`;
         }
         problems.forEach(p => {
             row += '<td>';
@@ -315,6 +316,7 @@ export async function getBaloonQueue(schoolFilter:string = '') {
         'utah': true,
         'usu': true,
         'osu': true,
+        'cu': true,
     };
 
     schoolFilter = schoolFilter.toLowerCase()
